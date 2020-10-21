@@ -1,0 +1,6 @@
+framework module Pods_aloxide_sdk_swift {
+  umbrella header "Pods-aloxide-sdk-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
