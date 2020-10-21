@@ -1,0 +1,6 @@
+framework module Pods_aloxide_sdk_swiftTests {
+  umbrella header "Pods-aloxide-sdk-swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

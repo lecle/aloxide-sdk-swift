@@ -1,0 +1,73 @@
+PODS:
+  - BigInt (5.2.0)
+  - CryptoSwift (0.11.0)
+  - EosioSwift (0.4.0):
+    - BigInt (~> 5.0)
+    - PromiseKit (~> 6.8)
+  - EosioSwiftAbieosSerializationProvider (0.4.0):
+    - EosioSwift (~> 0.4.0)
+  - EosioSwiftEcc (0.4.0):
+    - EosioSwift (~> 0.4.0)
+    - GRKOpenSSLFramework (= 1.0.2.19)
+  - EosioSwiftSoftkeySignatureProvider (0.4.0):
+    - EosioSwift (~> 0.4.0)
+    - EosioSwiftEcc (~> 0.4.0)
+  - GRKOpenSSLFramework (1.0.2.19)
+  - ICONKit (0.3.2):
+    - BigInt
+    - CryptoSwift (~> 0.11.0)
+    - Result
+    - scrypt
+    - secp256k1_ios (~> 0.1.3)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Result (5.0.0)
+  - scrypt (2.0):
+    - CryptoSwift (~> 0.11)
+  - secp256k1_ios (0.1.3)
+
+DEPENDENCIES:
+  - EosioSwift (~> 0.4.0)
+  - EosioSwiftAbieosSerializationProvider (~> 0.4.0)
+  - EosioSwiftSoftkeySignatureProvider (~> 0.4.0)
+  - ICONKit (~> 0.3.1)
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - CryptoSwift
+    - EosioSwift
+    - EosioSwiftAbieosSerializationProvider
+    - EosioSwiftEcc
+    - EosioSwiftSoftkeySignatureProvider
+    - GRKOpenSSLFramework
+    - ICONKit
+    - PromiseKit
+    - Result
+    - scrypt
+    - secp256k1_ios
+
+SPEC CHECKSUMS:
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  EosioSwift: 2965d63ded78cbe4d1849ccf96aea5a8d92cc643
+  EosioSwiftAbieosSerializationProvider: eba59a5335200175ccb71546388b81e98cd3213d
+  EosioSwiftEcc: bd176c3e86e7ee25a40e428473fe9fef404339f5
+  EosioSwiftSoftkeySignatureProvider: 3dc161a082173d7553e7dcf96b8e4a14e226d2f8
+  GRKOpenSSLFramework: 4abc733a8fcbc37060619a86a54202d2938dd70e
+  ICONKit: dcee236be4072a0d1a96dfcdbe37b62631d35d32
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  scrypt: 3fe5b1a3b0976f97cd87488673a8f7c65708cc84
+  secp256k1_ios: ac9ef04e761f43c58012b28548afa91493761f17
+
+PODFILE CHECKSUM: 24084361e6c8b9a4f66fc86f8b2b581eafd56f93
+
+COCOAPODS: 1.9.3

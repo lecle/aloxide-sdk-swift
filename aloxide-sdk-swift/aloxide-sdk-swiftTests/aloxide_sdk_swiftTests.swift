@@ -2,7 +2,7 @@
 //  aloxide_sdk_swiftTests.swift
 //  aloxide-sdk-swiftTests
 //
-//  Created by quoc huynh on 10/16/20.
+//  Created by quoc huynh on 10/19/20.
 //
 
 import XCTest
