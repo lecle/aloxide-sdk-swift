@@ -31,7 +31,7 @@ let poll = AloxideBuilder.newBuilder()
 ## Usage
  To add, by run:
 ```swift
-poll.add(params: ["id":"2020","name":"2010name","body":"2010body","user":"aloxidejs123"]) { res in
+poll.add(params: ["id":"2020","name":"2010name","body":"2010body"]) { res in
             switch res{
             case .success(let res):
                 print(res)
