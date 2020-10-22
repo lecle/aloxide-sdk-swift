@@ -17,9 +17,6 @@ class ICONNetwork: BlockchainNetwork{
     private var account: BlockchainAccount
     private var nId: Int = 3
     
-    var ee: AloxideExceptions?
-    var rr: Bool?
-    
     init(entityName: String, account: BlockchainAccount, contract: String, url: String, networkId: Int) {
         self.iconService = ICONService(provider: url, nid: "0x\(networkId)")
         self.account = account
@@ -32,28 +29,24 @@ class ICONNetwork: BlockchainNetwork{
         let methodName = "get"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            completion(AloxideResult(success: nil, failure: AloxideExceptions(code: -1, message:"Invalid when get record"))!)
+            completion(.failure(AloxideExceptions(code: -1, message:"Invalid when get record")))
         }
         
         let call = Call<String>(from: self.account.address!, to: self.contract, method: methodName, params: ["id": id])
         
         let request: Request<String> = iconService.call(call)
         let response: Result<String, ICError> = request.execute()
-        var ee: AloxideExceptions?
-        var rr: String?
-        switch response {
         
+        switch response {
         case .success(let res):
             if (res.isEmpty) {
-                completion(AloxideResult(success:rr , failure:AloxideExceptions(code: -1, message: "Not found"))!)
+                completion(.failure(AloxideExceptions(code: -1, message: "Not found")))
                 break
             }
-            rr = res
-            completion(AloxideResult(success: rr, failure: ee)!)
+            completion(.success(res))
             break
         case .failure(let error):
-            ee = AloxideExceptions(code: -1, message: error.localizedDescription)
-            completion(AloxideResult(success: nil, failure: ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: error.localizedDescription)))
             break
         }
     }
@@ -79,35 +72,31 @@ class ICONNetwork: BlockchainNetwork{
         }
     }
     
-    func add(params: Any,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func add(params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
         let methodName = "cre"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
-        self.sendTransaction(methodName: methodName, params: params as! Dictionary<String, Any>,completion: completion)
+        self.sendTransaction(methodName: methodName, params: params,completion: completion)
     }
     
-    func update(id: String, params: Any,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func update(id: String, params:[String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
         let methodName = "upd"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
-        self.sendTransaction(methodName: methodName, params: params as! Dictionary<String, Any>,completion: completion)
-        
+        self.sendTransaction(methodName: methodName, params: params ,completion: completion)
     }
     
     func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
         let methodName = "del"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
         self.sendTransaction(methodName: methodName, params: ["id": id],completion: completion)
@@ -122,15 +111,12 @@ class ICONNetwork: BlockchainNetwork{
         return true
     }
     
-    func sendTransaction(methodName: String, params: Dictionary<String, Any>,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
-        var eee: AloxideExceptions?
-        var rrr: Bool?
+    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+        
         if self.account.privateKey == nil {
-            eee = AloxideExceptions(code: -1, message: "Please provide the private key")
-            completion(AloxideResult(success:rrr , failure:eee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Please provide the private key")))
             return
         }
-        
         
         // SCORE function call
         let call = CallTransaction()
@@ -151,16 +137,14 @@ class ICONNetwork: BlockchainNetwork{
             
             switch result {
             case .success( _):
-                completion(AloxideResult(success:true , failure:eee)!)
+                completion(.success(true))
             case .failure( let e):
-                print("[AloxideSwift::ICON::SendTransaction]::ERROR: \(String(describing: e.failureReason))")
-                eee = AloxideExceptions(code: -1, message: e.localizedDescription)
-                completion(AloxideResult(success:rrr , failure:eee)!)
+                print("[AloxideSwift::ICON::SendTransaction]::ERROR: \(String(describing: e.errorDescription))")
+                completion(.failure(AloxideExceptions(code: -1, message: "Error: \(String(describing: e.errorDescription))")))
             }
         }catch{
             print("[AloxideSwift::ICON::SendTransaction]::ERROR: \(String(describing: error.localizedDescription))")
-            eee = AloxideExceptions(code: -1, message: error.localizedDescription)
-            completion(AloxideResult(success:rrr , failure:eee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: error.localizedDescription)))
         }
     }
 }

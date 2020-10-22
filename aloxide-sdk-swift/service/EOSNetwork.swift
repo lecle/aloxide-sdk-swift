@@ -21,11 +21,6 @@ class EOSNetwork: BlockchainNetwork{
     
     private var transactionFactory: EosioTransactionFactory?
     private var rpcProvider: EosioRpcProvider?
-    //    private var serializationProvider: EosioAbieosSerializationProvider?
-    //    private var signatureProvider: EosioSoftkeySignatureProvider?
-    
-    var ee: AloxideExceptions?
-    var rr: Bool?
     
     init(entityName: String, contract: String, url: String, account: BlockchainAccount) {
         self.entityName = entityName.lowercased()
@@ -58,23 +53,21 @@ class EOSNetwork: BlockchainNetwork{
         return true
     }
     
-    func add(params: Any,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func add(params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
         let methodName = "cre"+self.entityName
         let isValid = self.validate()
-        
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
         self.sendTransaction(methodName: methodName, params: params,completion: completion)
     }
-    func update(id: String, params: Any,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    
+    func update(id: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
         let methodName = "upd"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
         self.sendTransaction(methodName: methodName, params: params,completion: completion)
@@ -99,68 +92,22 @@ class EOSNetwork: BlockchainNetwork{
                                     encodeType: .dec,
                                     reverse: false, showPayer: false),
                                  completion: { response in
-                                    var ee: AloxideExceptions?
-                                    var rr: String?
                                     switch response{
                                     case .success(let res):
                                         if res.rows.count == 0 {
-                                            completion(AloxideResult(success:rr , failure:AloxideExceptions(code: -1, message: "Not found"))!)
+                                            completion(.failure(AloxideExceptions(code: -1, message: "Not found")))
                                             break
                                         }
-                                        
-                                        rr = "\(res.rows[0])"
-                                        completion(AloxideResult(success:rr , failure:ee)!)
+                                        completion(.success("\(res.rows[0])"))
                                         break
                                     case .failure(let e):
-                                        ee = AloxideExceptions(code: -1, message: e.description)
-                                        completion(AloxideResult(success:rr , failure:ee)!)
+                                        completion(.failure(AloxideExceptions(code: -1, message: e.description)))
                                         break
                                     }
                                  })
     }
     
     func get(id: Any) -> Any? {
-        //        guard rpcProvider != nil else {
-        //            print("[AloxideSwift::EOS::GetTableRows]::ERROR: No RPCProvider found.")
-        //            return nil
-        //        }
-        
-        //        let result = self.rpcProvider!.getTableRows(.promise, requestParameters: EosioRpcTableRowsRequest(
-        //                                                        scope: self.account.name!,
-        //                                                        code: self.contract,
-        //                                                        table: self.entityName,
-        //                                                        json: true,
-        //                                                        limit: 1,
-        //                                                        tableKey: nil,
-        //                                                        lowerBound: id as? String,
-        //                                                        upperBound: id as? String,
-        //                                                        indexPosition: "1",
-        //                                                        keyType: nil,
-        //                                                        encodeType: .dec,reverse: false, showPayer: false))
-        
-        //        self.rpcProvider!.getTableRows(requestParameters: EosioRpcTableRowsRequest(
-        //                                        scope: self.account.name!,
-        //                                        code: self.contract,
-        //                                        table: self.entityName,
-        //                                        json: true,
-        //                                        limit: 1,
-        //                                        tableKey: nil,
-        //                                        lowerBound: id as? String,
-        //                                        upperBound: id as? String,
-        //                                        indexPosition: "1",
-        //                                        keyType: nil,
-        //                                        encodeType: .dec,
-        //                                        reverse: false, showPayer: false),
-        //                                       completion: { response in
-        //                                        switch response{
-        //                                        case .failure(let error):
-        //                                            print("[AloxideSwift::EOS::GetTableRows]::Error \(error.eosioError)")
-        //                                        case .success(let res):
-        //                                            print("[AloxideSwift::EOS::GetTableRows]::Success \(res.rows[0])")
-        //                                            break
-        //                                        }
-        //                                       })
-        
         return nil
     }
     
@@ -168,47 +115,59 @@ class EOSNetwork: BlockchainNetwork{
         let methodName = "del"+self.entityName
         let isValid = self.validate()
         if !isValid {
-            ee = AloxideExceptions(code: -1, message: "Invalid")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
         self.sendTransaction(methodName: methodName, params: ["id":id],completion: completion)
     }
     
-    func sendTransaction(methodName: String, params: Any,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+        
         if self.account.name == nil {
-            ee = AloxideExceptions(code: -1, message: "Please provide account name!")
-            completion(AloxideResult(success:rr , failure:ee)!)
+            completion(.failure(AloxideExceptions(code: -1, message: "Please provide account name!")))
             return
         }
+        
         guard let transactionFactory = transactionFactory else {
-            print("ERROR: No transaction factory found.")
+            completion(.failure(AloxideExceptions(code: -1, message: "No transaction factory found.")))
             return
         }
         
         // Get a new transaction from our transaction factory.
         let transaction = transactionFactory.newTransaction()
         
-        let action = try! EosioTransaction.Action(account: self.account.name!, name: methodName, authorization: [EosioTransaction.Action.Authorization(actor: self.account.name!, permission: "active")], data: params  as! Dictionary<String, Any>)
+        // Because EOS Network, the smart contract need the field `user`: `account_name`
         
-        // Add that action to the transaction.
-        transaction.add(action: action)
+        var data = ["user":self.account.name]
+        params.forEach { (k,v) in data[k] = v as? String }
         
-        // Sign and broadcast.
-        var eee: AloxideExceptions?
-        var rrr: Bool?
-        
-        transaction.signAndBroadcast { result in
-            switch result{
-            case .success(let res):
-                rrr = res
-                completion(AloxideResult(success:rrr , failure:eee)!)
-                break
-            case .failure(let e):
-                eee = AloxideExceptions(code: -1, message: e.reason )
-                completion(AloxideResult(success:rrr , failure:eee)!)
-                break
+        do{
+            // Set up our transfer action.
+            let action = try EosioTransaction.Action(
+                account: self.account.name!,
+                name: methodName,
+                authorization: [EosioTransaction.Action.Authorization(
+                    actor: self.account.name!,
+                    permission: "active"
+                )],data:data)
+            
+            // Add that action to the transaction.
+            transaction.add(action: action)
+            
+            // Sign and broadcast.
+            transaction.signAndBroadcast { result in
+                
+                // Handle our result, success or failure, appropriately.
+                switch result {
+                case .failure (let e):
+                    completion(.failure(AloxideExceptions(code: -1, message: e.reason )))
+                case .success:
+                    completion(.success(true))
+                }
             }
+        }
+        catch{
+            completion(.failure(AloxideExceptions(code: -1, message: error.localizedDescription )))
         }
     }
 }
