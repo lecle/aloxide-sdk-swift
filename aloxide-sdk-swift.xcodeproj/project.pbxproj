@@ -15,7 +15,7 @@
 		5488A9DE253D8B16008DA2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9DC253D8B16008DA2C0 /* Main.storyboard */; };
 		5488A9E0253D8B18008DA2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9DF253D8B18008DA2C0 /* Assets.xcassets */; };
 		5488A9E3253D8B18008DA2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9E1253D8B18008DA2C0 /* LaunchScreen.storyboard */; };
-		5488A9EE253D8B19008DA2C0 /* aloxide_sdk_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9ED253D8B19008DA2C0 /* aloxide_sdk_swiftTests.swift */; };
+		5488A9EE253D8B19008DA2C0 /* EOSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9ED253D8B19008DA2C0 /* EOSTest.swift */; };
 		5488A9F9253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9F8253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift */; };
 		5488AA0B253D8B5D008DA2C0 /* AloxideExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA0A253D8B5D008DA2C0 /* AloxideExtensions.swift */; };
 		5488AA11253D8B79008DA2C0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA10253D8B79008DA2C0 /* Network.swift */; };
@@ -25,6 +25,18 @@
 		5488AA43253D8CB1008DA2C0 /* AloxideExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA42253D8CB1008DA2C0 /* AloxideExceptions.swift */; };
 		5488AA48253D8D11008DA2C0 /* Aloxide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA47253D8D11008DA2C0 /* Aloxide.swift */; };
 		5488AA4E253D8D60008DA2C0 /* BlockchainAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA4D253D8D60008DA2C0 /* BlockchainAccount.swift */; };
+		549CCBED2546CD09008DAEF6 /* BlockchainAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA4D253D8D60008DA2C0 /* BlockchainAccount.swift */; };
+		549CCBF12546CD0E008DAEF6 /* AloxideExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA42253D8CB1008DA2C0 /* AloxideExceptions.swift */; };
+		549CCBF52546CD11008DAEF6 /* AloxideResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E01C48253EFE920060F125 /* AloxideResult.swift */; };
+		549CCBF92546CD15008DAEF6 /* BlockchainNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA19253D8BA0008DA2C0 /* BlockchainNetwork.swift */; };
+		549CCBFA2546CD18008DAEF6 /* EOSNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA21253D8BBA008DA2C0 /* EOSNetwork.swift */; };
+		549CCBFE2546CD1A008DAEF6 /* ICONNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA26253D8BCE008DA2C0 /* ICONNetwork.swift */; };
+		549CCC032546CD22008DAEF6 /* AloxideExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA0A253D8B5D008DA2C0 /* AloxideExtensions.swift */; };
+		549CCC072546CD27008DAEF6 /* Aloxide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA47253D8D11008DA2C0 /* Aloxide.swift */; };
+		549CCC472546D254008DAEF6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA10253D8B79008DA2C0 /* Network.swift */; };
+		54BAC03D2546C08A0067F1FC /* ICONTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAC03C2546C08A0067F1FC /* ICONTest.swift */; };
+		54C8E4492545728A000C2914 /* env.json in Resources */ = {isa = PBXBuildFile; fileRef = 54C8E4482545728A000C2914 /* env.json */; };
+		54C8E44E25458CD4000C2914 /* SendTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8E44D25458CD4000C2914 /* SendTransactionViewController.swift */; };
 		54E01C49253EFE920060F125 /* AloxideResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E01C48253EFE920060F125 /* AloxideResult.swift */; };
 		B3330E564ABDAD85C679C6D4 /* Pods_aloxide_sdk_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7D599EBC4C75A12A08F29 /* Pods_aloxide_sdk_swift.framework */; };
 /* End PBXBuildFile section */
@@ -60,7 +72,7 @@
 		5488A9E2253D8B18008DA2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5488A9E4253D8B18008DA2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5488A9E9253D8B18008DA2C0 /* aloxide-sdk-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aloxide-sdk-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5488A9ED253D8B19008DA2C0 /* aloxide_sdk_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aloxide_sdk_swiftTests.swift; sourceTree = "<group>"; };
+		5488A9ED253D8B19008DA2C0 /* EOSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSTest.swift; sourceTree = "<group>"; };
 		5488A9EF253D8B19008DA2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5488A9F4253D8B19008DA2C0 /* aloxide-sdk-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aloxide-sdk-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5488A9F8253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aloxide_sdk_swiftUITests.swift; sourceTree = "<group>"; };
@@ -73,6 +85,9 @@
 		5488AA42253D8CB1008DA2C0 /* AloxideExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloxideExceptions.swift; sourceTree = "<group>"; };
 		5488AA47253D8D11008DA2C0 /* Aloxide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aloxide.swift; sourceTree = "<group>"; };
 		5488AA4D253D8D60008DA2C0 /* BlockchainAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainAccount.swift; sourceTree = "<group>"; };
+		54BAC03C2546C08A0067F1FC /* ICONTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICONTest.swift; sourceTree = "<group>"; };
+		54C8E4482545728A000C2914 /* env.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = env.json; sourceTree = "<group>"; };
+		54C8E44D25458CD4000C2914 /* SendTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTransactionViewController.swift; sourceTree = "<group>"; };
 		54E01C48253EFE920060F125 /* AloxideResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloxideResult.swift; sourceTree = "<group>"; };
 		58FEB0CE2204A2DB38472746 /* Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		694A018F0F47C7A92A2FD12F /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aloxide-sdk-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +164,8 @@
 				5488A9E4253D8B18008DA2C0 /* Info.plist */,
 				5488AA47253D8D11008DA2C0 /* Aloxide.swift */,
 				54373775253EBEB300943B4C /* Bridging-Header.h */,
+				54C8E4482545728A000C2914 /* env.json */,
+				54C8E44D25458CD4000C2914 /* SendTransactionViewController.swift */,
 			);
 			path = "aloxide-sdk-swift";
 			sourceTree = "<group>";
@@ -156,8 +173,9 @@
 		5488A9EC253D8B18008DA2C0 /* aloxide-sdk-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				5488A9ED253D8B19008DA2C0 /* aloxide_sdk_swiftTests.swift */,
+				5488A9ED253D8B19008DA2C0 /* EOSTest.swift */,
 				5488A9EF253D8B19008DA2C0 /* Info.plist */,
+				54BAC03C2546C08A0067F1FC /* ICONTest.swift */,
 			);
 			path = "aloxide-sdk-swiftTests";
 			sourceTree = "<group>";
@@ -267,6 +285,7 @@
 				5488A9E5253D8B18008DA2C0 /* Sources */,
 				5488A9E6253D8B18008DA2C0 /* Frameworks */,
 				5488A9E7253D8B18008DA2C0 /* Resources */,
+				4D9C4387310349A0EA7E1B44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,7 +331,6 @@
 					};
 					5488A9E8253D8B18008DA2C0 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 5488A9D2253D8B16008DA2C0;
 					};
 					5488A9F3253D8B19008DA2C0 = {
 						CreatedOnToolsVersion = 12.0;
@@ -346,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5488A9E3253D8B18008DA2C0 /* LaunchScreen.storyboard in Resources */,
+				54C8E4492545728A000C2914 /* env.json in Resources */,
 				5488A9E0253D8B18008DA2C0 /* Assets.xcassets in Resources */,
 				5488A9DE253D8B16008DA2C0 /* Main.storyboard in Resources */,
 			);
@@ -388,6 +407,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9C4387310349A0EA7E1B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E1C06F3C18019568D7E9526 /* [CP] Check Pods Manifest.lock */ = {
@@ -487,6 +523,7 @@
 				5488A9D7253D8B16008DA2C0 /* AppDelegate.swift in Sources */,
 				5488A9D9253D8B16008DA2C0 /* SceneDelegate.swift in Sources */,
 				5488AA27253D8BCE008DA2C0 /* ICONNetwork.swift in Sources */,
+				54C8E44E25458CD4000C2914 /* SendTransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +531,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5488A9EE253D8B19008DA2C0 /* aloxide_sdk_swiftTests.swift in Sources */,
+				54BAC03D2546C08A0067F1FC /* ICONTest.swift in Sources */,
+				5488A9EE253D8B19008DA2C0 /* EOSTest.swift in Sources */,
+				549CCBF92546CD15008DAEF6 /* BlockchainNetwork.swift in Sources */,
+				549CCC072546CD27008DAEF6 /* Aloxide.swift in Sources */,
+				549CCBFA2546CD18008DAEF6 /* EOSNetwork.swift in Sources */,
+				549CCC472546D254008DAEF6 /* Network.swift in Sources */,
+				549CCBF12546CD0E008DAEF6 /* AloxideExceptions.swift in Sources */,
+				549CCBED2546CD09008DAEF6 /* BlockchainAccount.swift in Sources */,
+				549CCBF52546CD11008DAEF6 /* AloxideResult.swift in Sources */,
+				549CCC032546CD22008DAEF6 /* AloxideExtensions.swift in Sources */,
+				549CCBFE2546CD1A008DAEF6 /* ICONNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +711,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "aloxide-sdk-swift/aloxide-sdk-swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swift/Info.plist";
@@ -673,8 +721,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -684,6 +733,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "aloxide-sdk-swift/aloxide-sdk-swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swift/Info.plist";
@@ -693,8 +743,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -703,7 +754,7 @@
 			baseConfigurationReference = 694A018F0F47C7A92A2FD12F /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"BUNDLE_LOADER[arch=*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swiftTests/Info.plist";
@@ -717,7 +768,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aloxide-sdk-swift.app/aloxide-sdk-swift";
 			};
 			name = Debug;
 		};
@@ -726,9 +776,10 @@
 			baseConfigurationReference = 1C51160556B4CA0545AF3226 /* Pods-aloxide-sdk-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"BUNDLE_LOADER[arch=*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "aloxide-sdk-swiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -740,7 +791,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aloxide-sdk-swift.app/aloxide-sdk-swift";
 			};
 			name = Release;
 		};
@@ -759,6 +809,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "aloxide-sdk-swift";
@@ -780,6 +831,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "aloxide-sdk-swift";

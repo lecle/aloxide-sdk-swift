@@ -24,6 +24,21 @@ class ICONNetwork: BlockchainNetwork{
         self.entityName = entityName.lowercased()
         self.nId = networkId
     }
+    func getScore() {
+        let request: Request<[Response.ScoreAPI]> = iconService.getScoreAPI(scoreAddress: self.contract)
+
+        let response = request.execute()
+
+        switch response {
+        case .success(let res):
+            print("getScore \(res)")
+            break
+        case .failure(let error):
+            print("getScore failed \(String(describing: error.failureReason))")
+            break
+        }
+        
+    }
     
     func get(id: Any, completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         let methodName = "get"+self.entityName
@@ -32,10 +47,10 @@ class ICONNetwork: BlockchainNetwork{
             completion(.failure(AloxideExceptions(code: -1, message:"Invalid when get record")))
         }
         
-        let call = Call<String>(from: self.account.address!, to: self.contract, method: methodName, params: ["id": id])
+        let call = Call<[String:String]>(from: self.account.address!, to: self.contract, method: methodName, params: ["id": id])
         
-        let request: Request<String> = iconService.call(call)
-        let response: Result<String, ICError> = request.execute()
+        let request: Request<[String:String]> = iconService.call(call)
+        let response: Result<[String:String], ICError> = request.execute()
         
         switch response {
         case .success(let res):
@@ -43,7 +58,7 @@ class ICONNetwork: BlockchainNetwork{
                 completion(.failure(AloxideExceptions(code: -1, message: "Not found")))
                 break
             }
-            completion(.success(res))
+            completion(.success(res.toString()!))
             break
         case .failure(let error):
             completion(.failure(AloxideExceptions(code: -1, message: error.localizedDescription)))
@@ -89,7 +104,9 @@ class ICONNetwork: BlockchainNetwork{
             completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
-        self.sendTransaction(methodName: methodName, params: params ,completion: completion)
+        var data = ["id":id]
+        params.forEach { (k,v) in data[k] = v as? String }
+        self.sendTransaction(methodName: methodName, params: data ,completion: completion)
     }
     
     func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {

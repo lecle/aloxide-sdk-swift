@@ -104,17 +104,6 @@ class AloxideNetworkBuilder{
         aloxide.aloxideData = self.aloxideData;
         switch self.aloxideData.network {
         case .EOS:
-//            let eos = EOSNetwork(
-//                entityName: aloxideData.entityName!,
-//                contract: aloxideData.contract!,
-//                url: aloxideData.url!,
-//                account: aloxideData.blockchainAccount!)
-//            do{
-//                try eos.initSetting()
-//                aloxide.blockchainNetwork = eos
-//            }catch{
-//                print("Init EOS Network failed!")
-//            }
             aloxide.blockchainNetwork = EOSNetwork(
                 entityName: aloxideData.entityName!,
                 contract: aloxideData.contract!,

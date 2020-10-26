@@ -39,7 +39,21 @@ class EOSNetwork: BlockchainNetwork{
             signatureProvider: signatureProvider,
             serializationProvider: serializationProvider
         )
-        
+    }
+    
+    
+    func getActions()  {
+        let rpcProvider = EosioRpcProvider(endpoint: URL(string: self.url)!)
+        rpcProvider.getAbi(requestParameters: EosioRpcAbiRequest(accountName: self.account.name!)) { (result) in
+            switch result{
+            case .failure(let error):
+                print("getAbi error \(String(describing: error.failureReason))")
+                break
+            case .success(let res):
+                print("getAbi success \(res)")
+                break
+            }
+        }
     }
     
     func initSetting() throws -> Void {}
@@ -138,7 +152,7 @@ class EOSNetwork: BlockchainNetwork{
         
         // Because EOS Network, the smart contract need the field `user`: `account_name`
         
-        var data = ["user":self.account.name]
+        var data = ["user": self.account.name]
         params.forEach { (k,v) in data[k] = v as? String }
         
         do{
@@ -156,7 +170,6 @@ class EOSNetwork: BlockchainNetwork{
             
             // Sign and broadcast.
             transaction.signAndBroadcast { result in
-                
                 // Handle our result, success or failure, appropriately.
                 switch result {
                 case .failure (let e):

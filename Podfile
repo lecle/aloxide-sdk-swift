@@ -16,6 +16,10 @@ target 'aloxide-sdk-swift' do
   target 'aloxide-sdk-swiftTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'ICONKit', '~> 0.3.1'
+    pod 'EosioSwift', '~> 0.2.0'
+    pod 'EosioSwiftAbieosSerializationProvider', '~> 0.2.0'
+    pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.2.0'
   end
 
   target 'aloxide-sdk-swiftUITests' do

@@ -72,13 +72,14 @@
 		1CFCF9477C89974CE6CFB7FB8DB35712 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC2F20BD0151F82DD5E8EADD609EB4 /* Authenticator.swift */; };
 		1E71E4A933C522AA08BF7963973F4682 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E053A4CDB6D6FFCF12A471CFF12BF /* LinkedList.swift */; };
 		1E7D11DC2B0FD2C23D2411B63044872F /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BFDE56E4411CC2143DC537EE2865B8 /* SecureBytes.swift */; };
+		1E8680DF88191C9CE2526912AD83A1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854C9DBC9FBB8B9A67D45F81A77B384A /* Foundation.framework */; };
 		1E9C45CDB6CE8DD611C89C2D6D92105E /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D932E11DEBE842BCDDCED43336A2C3F /* NSTask+AnyPromise.m */; };
 		1FA36DBDEFC726CE1DCDAC3663749AF3 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBAB1AAF26A81C2F05876766BFAB45 /* Cryptor.swift */; };
 		2228B8549F0F5445D1B2D346E12A20CD /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7C5A1CC962E695EEC3E3E6CBDA811 /* Floating Point Conversion.swift */; };
 		22F0C49EFDA983428132D2D921B0B977 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1DE22FD6DC12DD3B2DA1DE81A684 /* HMAC.swift */; };
-		22FAEA9388868CE609E0A0085350274F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD70474A44A7FCF18931CC3CB722C121 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22FAEA9388868CE609E0A0085350274F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6AEA905BB5C6436DC083CEBE6B2C52 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2343F2E7E64F7A364F449848217CAF9F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF5BF66A68DC6B67AB098A78BD1300 /* ArrayExtensions.swift */; };
-		2391E3D7B34DB07242DF7BDE757269AE /* Pods-aloxide-sdk-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89845A50BA4419E09B03CB9A979B83E /* Pods-aloxide-sdk-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2391E3D7B34DB07242DF7BDE757269AE /* Pods-aloxide-sdk-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 779C69D862811D2ECC131A8567D31B46 /* Pods-aloxide-sdk-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23A043712E632771A7B29BB4B75CD72D /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C4DE35D781C430E0D989FB0B8F196F /* scalar_8x32_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		23E8FDF41D37BEF59FFCD48394F43CB4 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF90221D55F68C601746549948A66A7 /* PKCS7.swift */; };
 		23FB2BEB21C50FC9EC6C4866F244EF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854C9DBC9FBB8B9A67D45F81A77B384A /* Foundation.framework */; };
@@ -111,7 +112,7 @@
 		36BA19F3187872C92413A831A31EEAF0 /* ieee754.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE7CD35E9246E423B8DF4BC63FA2AFA /* ieee754.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		37C5D465F19C416D419E06B86F9E2A4B /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA0181A1A070E13204CFE6E04F0E44A /* OFB.swift */; };
 		37FC8333437E7ECA26A8B57B9F55F0C5 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F41EA6C7DE2286C88590259A522DCE /* Bit.swift */; };
-		387C9D71B88188A6CDBF9D0EB56A4F34 /* Pods-aloxide-sdk-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C983C2513E7403A19B4DD1D391837446 /* Pods-aloxide-sdk-swift-dummy.m */; };
+		387C9D71B88188A6CDBF9D0EB56A4F34 /* Pods-aloxide-sdk-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4476307A34274BD576773DFB42FD1A /* Pods-aloxide-sdk-swift-dummy.m */; };
 		3884BDE6EFDBC5D226858960A9A529AE /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4520A7E64AF5ED49B7F2CA49A8A4C41 /* NoPadding.swift */; };
 		39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE349102893C8596BFFB461076659 /* Data Conversion.swift */; };
 		393D8F60E4D686C871D80459EF24753B /* BlockDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D302D074859D79865F3A4B8F5C89 /* BlockDecryptor.swift */; };
@@ -133,7 +134,6 @@
 		45DC5940008B50BB77A2882B6228AE8F /* encodedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = A307F6836D374B766C4E57164F232543 /* encodedstream.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45F995CFCD583D173565692B6451CD6B /* ICON+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7535F73C3C480587620200A2405488F /* ICON+Request.swift */; };
 		46695A65CB410EC5F2511184879C00E5 /* EosioKeySignatureExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407BA871EA75C2741EB4A5136793547 /* EosioKeySignatureExtensions.swift */; };
-		49112ECDC745A89D0F78DDD185987312 /* Pods-aloxide-sdk-swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3364D2D69EF20C5D0DC0B6851FC97263 /* Pods-aloxide-sdk-swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8B21596204A43258F4EC69A7AEC66E /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E001AA798F35A1E90C335010375E6A3F /* Hashable.swift */; };
 		4AE9D6D89752BB9C5F7822A8579C7862 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAAE35FFB629FF638A102B5A51211E /* lax_der_privatekey_parsing.c */; };
 		4D9E7E58E818FF108DD6C4FA056D7201 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 950EAA43AA49C65F0843B2EDDE07B5A6 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -260,7 +260,6 @@
 		9E9AECD2648A4F18C034B2923F23563B /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3E30D37006D0BD4EB8F8985B441A7 /* when.swift */; };
 		9FCFE6699321810B0E13EEC12D76DBCD /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAED49E44A86EC1381E2B233A191263 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B8F0BFE16B6006A2DACCDE58B0B9EA /* diyfp.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A75C1EEB0519689C365E49D7314C /* diyfp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0EA4B3962303AE1477CF714685B1B37 /* Pods-aloxide-sdk-swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB8BDEAA9DCB91F7BC7FED6153D49F /* Pods-aloxide-sdk-swiftTests-dummy.m */; };
 		A2633A44E1A693A5E98F139FD6E490B3 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = EA716F941DFD309D2AF2A83C3C7C8AF4 /* AnyPromise.m */; };
 		A31A5F84FD7925DB905BD3415A8762A6 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB7A100B015A89C187C4CB30B528E0 /* SHA2.swift */; };
 		A4764E3EF0EE1C62DD6FCE1FB261FF27 /* scrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628C13D2C18B34362F742EEC780702B3 /* scrypt-dummy.m */; };
@@ -326,7 +325,6 @@
 		CEAC784F449FFC3A44370D88442F14E4 /* eosio.assert.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = CC4EAEE6A2919D658999409680B0F1E2 /* eosio.assert.abi.json */; };
 		CF46356B4CEEE84D6B767853D615B89F /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BAB178785E6278715637E331329F38 /* HKDF.swift */; };
 		CFA2E4A6F63BCE1A6983D9935B38F9BD /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C7D9FABF3862DAB409DCE6D028C62 /* secp256k1_ios-dummy.m */; };
-		D0D08519B0C5A041B28BEAB33B9D2F56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854C9DBC9FBB8B9A67D45F81A77B384A /* Foundation.framework */; };
 		D1309BF87A4EF1AAFBE0C410460C40FC /* EosioSerializationProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3643DCC2ED12B717F1FD111F92F71F50 /* EosioSerializationProviderProtocol.swift */; };
 		D2743223C0C90A6ABC40296DCC437C95 /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D446083986F5342E893131699BCDB /* EncodableExtensions.swift */; };
 		D2FFF577045DD12B52B1005D21FA0F27 /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 58726FC304AA98BA5ED8DF12BA3AC26D /* field_5x52.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -355,7 +353,7 @@
 		E1BB16D736A986A93FF9C4492CB79A6A /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A909F7790CB452D71881E7DBF6892 /* field_5x52_int128_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E1E6A8BF0637CE32782726359EE01B4C /* ICON+Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC7D2975AACBAC8A694B68E12F982B /* ICON+Signer.swift */; };
 		E282C3382E0B171FDDE25EDDC0295DC3 /* abi.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = DEAC74E0FF03DCC8A3ECC45535B11747 /* abi.abi.json */; };
-		E3A0834ED7341D61EB7D093FAA434711 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E8F79E67BE2B8D8EBF53A3DF1A27F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */; };
+		E3A0834ED7341D61EB7D093FAA434711 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0AC96779777C07B388FE726066BE8E /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */; };
 		E3A201E552D0766EDAF2AE3E868852DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854C9DBC9FBB8B9A67D45F81A77B384A /* Foundation.framework */; };
 		E3F71F96A64D755E59FB4DF3815BA8E7 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B960DD96102BF5F8ED456A35B89A2 /* CryptoSwift.framework */; };
 		E4122FF2471ECB8ACDE31FF692FC148F /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D121E80A30372F2324C947EAD21D1 /* DataExtensions.swift */; };
@@ -384,6 +382,7 @@
 		EF27FC60517CA1DA0E56FB785410D2D5 /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = F42D6F10B41C3BD7129809414BB6E5E7 /* field_10x26_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F13925E2206A7647AC326ECFA6ED2856 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8B9005D5E21DA1D616D8EA1C60283 /* GCD.swift */; };
 		F1999DB7E7776ACA9B8C0E2C59E80EE4 /* istreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C038630AE875DF8D0E516D3BD00E2075 /* istreamwrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1D6F22E291ABD983ABE2996ED5D3630 /* Pods-aloxide-sdk-swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E2F7801A0EA6ABE88379B1C94ABB37 /* Pods-aloxide-sdk-swiftTests-dummy.m */; };
 		F2CFB7B24A9E635F408605C7DBD52D0D /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C428BB302D48E6E6C5A96D8FBF0F3 /* hash.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F35066ED10C93F1CD7122D8BF18CB95B /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = 782DA2683CEBC9ED14F78441BEBCD011 /* memorystream.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F536E1CE749A36C16D51FA9AFFD70F09 /* ICON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424A868D20432D7C788B08BC8434BAE /* ICON.swift */; };
@@ -391,6 +390,7 @@
 		F6E9B818A70780B96747BC1B2C5A1892 /* abieos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ED379209F4F2BF0C412960BE1BC35CA /* abieos.cpp */; };
 		F6F91E5E596D2BE3865AE1C247B9B7AF /* ICON+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70243ED0397D844DD8EEBD5C92E499CB /* ICON+Error.swift */; };
 		F851C04E0952DA12018459A4CA2FD2B6 /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC08F2FBFCEA3D6DFE65F1D20CEB9B45 /* RandomBytesSequence.swift */; };
+		F9830DE87587489A96417ADFC732B607 /* Pods-aloxide-sdk-swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D83770B8920A2BE265DCE81D67A74B /* Pods-aloxide-sdk-swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9F5BD3E36C87C4DE646E9E636A222FD /* CipherModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C735F919A8E8316658D464908A3549 /* CipherModeWorker.swift */; };
 		FA7DDE782A9FB4163283970977B7967D /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E41CB14AE98ABF3DCE7CE1266AF80 /* hang.m */; };
 		FCA123EF201B3BC7018B1D740D2F72EF /* ResolverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6BE21BC8ECDA9AAC8F4B97A262FC1 /* ResolverExtensions.swift */; };
@@ -430,6 +430,13 @@
 			remoteGlobalIDString = 06D25A4FF2ED1E3CE5A9A0822BE1F300;
 			remoteInfo = GRKOpenSSLFramework;
 		};
+		14AF8CFD17489ACAC2711A6596CCB951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D51AEB6C34F478BB7906F0EF1819936;
+			remoteInfo = EosioSwiftEcc;
+		};
 		15F243FDD2B14047839D3E11DBB227C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -458,6 +465,13 @@
 			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
 			remoteInfo = CryptoSwift;
 		};
+		2E2041E9FCC5DE82053D092B42067C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
+			remoteInfo = EosioSwift;
+		};
 		2FEFC6C6FFBE69C4279DA11936BBB4AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -479,6 +493,20 @@
 			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
 			remoteInfo = Result;
 		};
+		3362D8C1A99B74BE8FFAE0EB89B58E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99313990C1D76A6D1D017868B6975CC8;
+			remoteInfo = CryptoSwift;
+		};
+		3589979A4148E8046F59465D93B30CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
+			remoteInfo = Result;
+		};
 		45B84617A817FAA1ED5A0AA6ABC451C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -494,6 +522,13 @@
 			remoteInfo = EosioSwift;
 		};
 		4A4D36C4B3D3C812212F27952CE065BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
+			remoteInfo = BigInt;
+		};
+		533604121A7CEA49438E06CF3F404A04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -528,12 +563,19 @@
 			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
 			remoteInfo = PromiseKit;
 		};
-		83919D2C55E2308C1F47DFACA4AD1FD5 /* PBXContainerItemProxy */ = {
+		80BE9DF0E28E69BDC3652E048505143A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51DBFE6A6C0A2825C0BA768DF0AB93D4;
-			remoteInfo = "Pods-aloxide-sdk-swift";
+			remoteGlobalIDString = 382B8C2672491F3FE8AF9C3F5C774A62;
+			remoteInfo = EosioSwiftAbieosSerializationProvider;
+		};
+		82889529FABD679652AFAC7D0B588E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2701971E9F776D08826CE4ABC57817F;
+			remoteInfo = secp256k1_ios;
 		};
 		84CA497416AFB00B73669252718E4220 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -591,6 +633,20 @@
 			remoteGlobalIDString = 48DD11FE3425410A409E55A889EACD4E;
 			remoteInfo = EosioSwift;
 		};
+		A38D82DCF77338C785786AD5E18D9A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		A97B6D20B057F9D669F1A392C25CF340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80DF59FBB7E1F74EE85DA494739FD82;
+			remoteInfo = EosioSwiftSoftkeySignatureProvider;
+		};
 		AE7F5D43A7A1649D80578DD02F46DD6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -633,6 +689,13 @@
 			remoteGlobalIDString = 7022E087D5369965AA77F34191AAE080;
 			remoteInfo = ICONKit;
 		};
+		C068E4BB5DF88666A9D35893C722C5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D25A4FF2ED1E3CE5A9A0822BE1F300;
+			remoteInfo = GRKOpenSSLFramework;
+		};
 		CB8D7AFC1808ECB2DA48A347B8784260 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -654,7 +717,28 @@
 			remoteGlobalIDString = 06D25A4FF2ED1E3CE5A9A0822BE1F300;
 			remoteInfo = GRKOpenSSLFramework;
 		};
+		E71EBFF54BC1E3749EC0B3D15B35D729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7022E087D5369965AA77F34191AAE080;
+			remoteInfo = ICONKit;
+		};
+		F09CAB6F7EE5FAB90E07D68472A95E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DBFE6A6C0A2825C0BA768DF0AB93D4;
+			remoteInfo = "Pods-aloxide-sdk-swift";
+		};
 		F648A232E9E2C5F0B60EFDA87987D07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C7EAA3A42AFD2984C36F6D25C31A5;
+			remoteInfo = scrypt;
+		};
+		F8FE69A4B72843449221DD85F10D702D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -683,20 +767,21 @@
 		00D6C1F9E057C7DD3EEC9F0FBC1C7132 /* BlockEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockEncryptor.swift; path = Sources/CryptoSwift/BlockEncryptor.swift; sourceTree = "<group>"; };
 		011BBF77EEBFB9774613633CD238D18B /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
 		02170CF8C7C549E3B00B814E4A9914D5 /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field.h; path = secp256k1_ios/src/field.h; sourceTree = "<group>"; };
+		02605B4BB6EB371983758AE180373ECB /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		02CC9D896554B9D732C714B28D5E802F /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
 		04360E22665AFA215D5F78F812FD9DFE /* prettywriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prettywriter.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/prettywriter.h; sourceTree = "<group>"; };
 		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		058EAB392D0D80EA534771795343AD75 /* Pods-aloxide-sdk-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-Info.plist"; sourceTree = "<group>"; };
 		061DD37BC25A42EADC162A2BF29A6C5A /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_impl.h; path = secp256k1_ios/src/num_impl.h; sourceTree = "<group>"; };
 		0628D3E47EEC1E246F1730A019F626D8 /* chrono_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chrono_io.h; path = EosioSwiftAbieosSerializationProvider/date/chrono_io.h; sourceTree = "<group>"; };
 		06B12A52CCB0FB91FE6E34A21DA585F0 /* CryptoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.debug.xcconfig; sourceTree = "<group>"; };
 		071D4A1FCB9FBADFD99996B8F8994F76 /* ICONKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICONKit-prefix.pch"; sourceTree = "<group>"; };
-		0737D75F6026CFAF14BA35DB35713E32 /* Pods-aloxide-sdk-swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		076580381AE492397C6AAFF138E7D39C /* Pods-aloxide-sdk-swiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swiftTests-Info.plist"; sourceTree = "<group>"; };
 		07BA22074A0C5CA191CEC3BC28AE8794 /* pow10.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pow10.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/pow10.h; sourceTree = "<group>"; };
 		07D815E5601D41DF31FEC43727C49CB3 /* EosioSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwift.modulemap; sourceTree = "<group>"; };
 		07F8D3A8FDA484A713C44224C7CAEB36 /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash_impl.h; path = secp256k1_ios/src/hash_impl.h; sourceTree = "<group>"; };
 		08A7D302D074859D79865F3A4B8F5C89 /* BlockDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockDecryptor.swift; path = Sources/CryptoSwift/BlockDecryptor.swift; sourceTree = "<group>"; };
 		09E5A2E89809AB80A6BB71CEC94E06E6 /* ICON+Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Cipher.swift"; path = "Source/ICON+Cipher.swift"; sourceTree = "<group>"; };
-		0A8D8BA6A718C87F6A9469FC6CE6CD0F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0A9DE349102893C8596BFFB461076659 /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "Sources/Data Conversion.swift"; sourceTree = "<group>"; };
 		0AC39A686184A38ED808FAD04BBD5A80 /* scrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = scrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1E4395777BA1202AFAB185F9E9F9B1 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
@@ -712,25 +797,27 @@
 		0FDAE2BE80117963BD65276148F73CEA /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
 		102C1DDD0A24FBCC44C836B500A1397F /* scrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = scrypt.debug.xcconfig; sourceTree = "<group>"; };
 		11FEA281DDDE031EEDAD8690219C4DAD /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		1221A6170AB9DB52F7A9B5C444CFEA4F /* Pods-aloxide-sdk-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift.release.xcconfig"; sourceTree = "<group>"; };
 		12766F3D11595C27A3B37CD0DD5385D7 /* EosioSoftkeySignatureProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioSoftkeySignatureProvider.swift; path = EosioSwiftSoftkeySignatureProvider/EosioSoftkeySignatureProvider.swift; sourceTree = "<group>"; };
 		127DC915CD8B905C6F27E0A50A1572AB /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
-		14D63BF1F303D2B0AF95FAB926C359C7 /* Pods-aloxide-sdk-swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12DA7F6F3FE52E3A559224CC722CEB5D /* Pods-aloxide-sdk-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		1523FD8766BC5E86CF517AE744BC8692 /* PCBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCBC.swift; path = Sources/CryptoSwift/BlockMode/PCBC.swift; sourceTree = "<group>"; };
 		1549CEE409DF2E34660B99FE0423961C /* writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = writer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/writer.h; sourceTree = "<group>"; };
 		16485606C661E02B9FE58EEA38B342BF /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 		16C402D838F0ECC1BE27231AD8FDA670 /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low_impl.h; path = secp256k1_ios/src/scalar_low_impl.h; sourceTree = "<group>"; };
 		16D0446AD4E34A80C3E2603208020F4C /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
+		17D83770B8920A2BE265DCE81D67A74B /* Pods-aloxide-sdk-swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swiftTests-umbrella.h"; sourceTree = "<group>"; };
 		18A80610C0F9A8F6FA348E48B8DD9ECD /* Pods_aloxide_sdk_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_aloxide_sdk_swiftTests.framework; path = "Pods-aloxide-sdk-swiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B4C4B26D6D1BEB11AF880545C0424B /* EosioRpcProviderEndpointsPromises.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderEndpointsPromises.swift; path = EosioSwift/EosioRpcProvider/Endpoints/EosioRpcProviderEndpointsPromises.swift; sourceTree = "<group>"; };
 		1C42B3CA448FDA4A42F557F49E3D8FE9 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		1D9E1244D57630BBE7BE85C97D5F458A /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist"; sourceTree = "<group>"; };
 		1DF5963C085A2BC708B7F48392546409 /* Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = Sources/CryptoSwift/Padding.swift; sourceTree = "<group>"; };
+		1F6184BDDC21FAAA88B7754BB4438701 /* Pods-aloxide-sdk-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		1F77B3CDE3B5B0B23F94CBA00CD24462 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
 		1FE1275B9964303564214050436CDBF9 /* PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromiseKit-Info.plist"; sourceTree = "<group>"; };
 		20639D6EEE506697A0D6F0F0332EDA6A /* Result.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.release.xcconfig; sourceTree = "<group>"; };
 		20642FF20ACD8B72F8469FB073E3BF3A /* reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reader.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/reader.h; sourceTree = "<group>"; };
 		216BACCC38D00F603A479AE81247B914 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
-		21B2CA8B5F9199B18D0693AB37CE7B01 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		230119F72D28BA4C3F0208F6DB439BF4 /* Pods-aloxide-sdk-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aloxide-sdk-swift-frameworks.sh"; sourceTree = "<group>"; };
 		230D799210EBC41C2FF07AADB3A8D312 /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_parsing.h; path = secp256k1_ios/contrib/lax_der_parsing.h; sourceTree = "<group>"; };
 		23AED02CE819FB2AF6D7334AA62A9C62 /* scrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "scrypt-Info.plist"; sourceTree = "<group>"; };
 		241C4A6461EA3E3E63EA7EA1475FF854 /* EosioTransactionAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransactionAction.swift; path = EosioSwift/EosioTransaction/EosioTransactionAction.swift; sourceTree = "<group>"; };
@@ -749,12 +836,10 @@
 		2E3EC1FE83DF205C10C356499C318B36 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
 		2E50CA77F124F00A4848AE6B5CC45B65 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
 		2E9EED785A9E99118CA9D629D848CE62 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		2F8ABE3A133B10BCF5D28B6BE6727BC5 /* Pods-aloxide-sdk-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-Info.plist"; sourceTree = "<group>"; };
 		3179304FBF73EC178F24713FC8B4C9AE /* RpcProviderResponseModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RpcProviderResponseModels.swift; path = EosioSwift/EosioRpcProvider/Models/RpcProviderResponseModels.swift; sourceTree = "<group>"; };
 		31CB5C1D3A78055A04B4FDC52CAF6179 /* EosioAbiProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioAbiProvider.swift; path = EosioSwift/EosioAbiProviderProtocol/EosioAbiProvider.swift; sourceTree = "<group>"; };
 		325A4525081E067127AF709E38D770FF /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
 		329C60351F948AEE9A314112475E91B7 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ecdh.h; path = secp256k1_ios/include/secp256k1_ecdh.h; sourceTree = "<group>"; };
-		3364D2D69EF20C5D0DC0B6851FC97263 /* Pods-aloxide-sdk-swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swiftTests-umbrella.h"; sourceTree = "<group>"; };
 		33ADCE055F650B800BE7E89DD6F93C43 /* scrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = scrypt.framework; path = scrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4EB4B1FB432F806AECDFC726A946C /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
 		34676672947DD7754EC8A54610AA9996 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_recovery.h; path = secp256k1_ios/include/secp256k1_recovery.h; sourceTree = "<group>"; };
@@ -769,6 +854,7 @@
 		37DBAB1AAF26A81C2F05876766BFAB45 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
 		38AE0C9E4ED64E537C993FC78213F5E7 /* EosioSwiftSoftkeySignatureProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EosioSwiftSoftkeySignatureProvider-Info.plist"; sourceTree = "<group>"; };
 		38EA818DF48D9783F3CBDC751A0E0AC5 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
+		399C36D4EE4D4F0F6595D9C60FB3BF36 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		39BBDDF0F57B5FD8A10193CFCD947724 /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult.h; path = secp256k1_ios/src/ecmult.h; sourceTree = "<group>"; };
 		3ADAAE35FFB629FF638A102B5A51211E /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
 		3B3DCEAFC8775D9F473D06DC47CAC404 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
@@ -778,6 +864,7 @@
 		3DB6BE21BC8ECDA9AAC8F4B97A262FC1 /* ResolverExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolverExtensions.swift; path = EosioSwift/Extensions/ResolverExtensions.swift; sourceTree = "<group>"; };
 		3ED379209F4F2BF0C412960BE1BC35CA /* abieos.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos.cpp; path = EosioSwiftAbieosSerializationProvider/abieos.cpp; sourceTree = "<group>"; };
 		3F33FDF7AA65430AE5F11E2A3CE02D55 /* iso_week.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iso_week.h; path = EosioSwiftAbieosSerializationProvider/date/iso_week.h; sourceTree = "<group>"; };
+		3F6AEA905BB5C6436DC083CEBE6B2C52 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h"; sourceTree = "<group>"; };
 		3F7030D1438728B94EF7A64824BFB871 /* ICONKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICONKit.framework; path = ICONKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F2FE41C22EAEA609B1FDC0E260348 /* transaction.abi.json */ = {isa = PBXFileReference; includeInIndex = 1; name = transaction.abi.json; path = EosioSwiftAbieosSerializationProvider/transaction.abi.json; sourceTree = "<group>"; };
 		40EA9581783DF68BC4489BBA01EF49CA /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "Sources/Square Root.swift"; sourceTree = "<group>"; };
@@ -787,7 +874,6 @@
 		438CD7E9A6438EE075E5122974AF8D16 /* Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BBD80C24A8771531EA762AC90DDE94 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
 		45C9A4DC6FFE56E5D8431DCCA6C3712D /* EosioError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioError.swift; path = EosioSwift/Foundation/EosioError.swift; sourceTree = "<group>"; };
-		46796AE02A1EF7303078FF67E4E1EB8C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4705556FF6A723FEB23BF358B923D4AE /* Common+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Common+Extension.swift"; path = "Source/Common+Extension.swift"; sourceTree = "<group>"; };
 		4707A1CC972C02A0DF6B335ED89A5134 /* ICON+Amount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Amount.swift"; path = "Source/ICON+Amount.swift"; sourceTree = "<group>"; };
 		493513837738F0AC0DE816B45FCF20B0 /* EosioSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EosioSwift-dummy.m"; sourceTree = "<group>"; };
@@ -795,10 +881,9 @@
 		4A35795987A5D51E166658A9C879E868 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
 		4A75A599866D1F6226FCE103D6C888F0 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = EosioSwift/Extensions/StringExtensions.swift; sourceTree = "<group>"; };
 		4AC948768B78485667B26CE9B7F4E178 /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group.h; path = secp256k1_ios/src/group.h; sourceTree = "<group>"; };
+		4B0F62D5DAD5AC9B4E3BFBC661E4485A /* Pods-aloxide-sdk-swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B4FD1B4EAA79D0079E018E2332CA98D /* fuzzer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = fuzzer.cpp; path = EosioSwiftAbieosSerializationProvider/fuzzer.cpp; sourceTree = "<group>"; };
-		4BBB8BDEAA9DCB91F7BC7FED6153D49F /* Pods-aloxide-sdk-swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swiftTests-dummy.m"; sourceTree = "<group>"; };
 		4C49CB551930E5A87237C1ADDD59DF3E /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
-		4C5E8F79E67BE2B8D8EBF53A3DF1A27F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m"; sourceTree = "<group>"; };
 		4C6277013CFC441832C3031E9C2DDBEC /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_impl.h; path = secp256k1_ios/src/field_impl.h; sourceTree = "<group>"; };
 		4C8444FAF4914E677282A23C303D506E /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		4C9372767281D1D514BFFAAF919DB923 /* tz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tz.h; path = EosioSwiftAbieosSerializationProvider/date/tz.h; sourceTree = "<group>"; };
@@ -811,6 +896,7 @@
 		4F34E1C98C8BE380EFFFCE6052C6909C /* secp256k1_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = secp256k1_ios.modulemap; sourceTree = "<group>"; };
 		4FB4C9039A16C5874CF70F769690C4E3 /* EcdsaSignature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EcdsaSignature.swift; path = EosioSwiftEcc/Sign/EcdsaSignature.swift; sourceTree = "<group>"; };
 		4FB6639D640E4FA985A3E2B8DCD0237B /* EosioSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwift-umbrella.h"; sourceTree = "<group>"; };
+		506EC8A5EFA7EC8ACEB4811533D3553C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50D2D651D46C679663E7DC4720AA2A62 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
 		50F03F7DA61A3FBE8EA4745C46C116C7 /* biginteger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = biginteger.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/biginteger.h; sourceTree = "<group>"; };
 		51B831C77FAD13A1CE84FD793A9ED3A0 /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Sources/CryptoSwift/BatchedCollection.swift; sourceTree = "<group>"; };
@@ -834,7 +920,6 @@
 		5DA21FD2D886EBEB1B554FD56179FD48 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = EosioSwift/Extensions/DictionaryExtensions.swift; sourceTree = "<group>"; };
 		5E16BF5C8E263341005E388214066033 /* abieos_numeric.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_numeric.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_numeric.hpp; sourceTree = "<group>"; };
 		5F1F56A0B3CCAEC0FA9580B64CABA4CF /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = EosioSwift/Foundation/Queue.swift; sourceTree = "<group>"; };
-		5FDF17B0535E3E1577081423EEF6727B /* Pods-aloxide-sdk-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		60149F11AF254CA8C6A538EE1FDF2472 /* abieos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = abieos.h; path = EosioSwiftAbieosSerializationProvider/abieos.h; sourceTree = "<group>"; };
 		6066E14CB42483907AA4ADFF38FC872B /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
 		619D121E80A30372F2324C947EAD21D1 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = EosioSwift/Extensions/DataExtensions.swift; sourceTree = "<group>"; };
@@ -849,7 +934,6 @@
 		683B2097F714B57A9C1BA8D67288CE5E /* secp256k1_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ios.h; path = secp256k1_ios/secp256k1_ios.h; sourceTree = "<group>"; };
 		69F8B9005D5E21DA1D616D8EA1C60283 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Sources/GCD.swift; sourceTree = "<group>"; };
 		6A3B61673FBB73B1218822CDF5C26188 /* EllipticCurveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EllipticCurveType.swift; path = EosioSwiftEcc/EllipticCurveType.swift; sourceTree = "<group>"; };
-		6D1336F7E4C13AD1F64B98D9F73FE5B3 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist"; sourceTree = "<group>"; };
 		6D382FEAFBAAB068815BAD847B2AE0FD /* julian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = julian.h; path = EosioSwiftAbieosSerializationProvider/date/julian.h; sourceTree = "<group>"; };
 		6DE23A95B01F44294D401284D6D0C63B /* abieos.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos.hpp; path = EosioSwiftAbieosSerializationProvider/abieos.hpp; sourceTree = "<group>"; };
 		6E44E63F22AC1322493E4EC49043CFAE /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
@@ -865,6 +949,7 @@
 		742401BFD6574A485DD575BA5F924D96 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
 		745317F82EBD7EA63B21992033937D42 /* EosioUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioUInt64.swift; path = EosioSwift/EosioRpcProvider/Models/EosioUInt64.swift; sourceTree = "<group>"; };
 		74BDB52AE332E8A2D33AE6D95A91CBDF /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = "OpenSSL-iOS/bin/openssl.framework"; sourceTree = "<group>"; };
+		74E2F7801A0EA6ABE88379B1C94ABB37 /* Pods-aloxide-sdk-swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swiftTests-dummy.m"; sourceTree = "<group>"; };
 		751418060BFEBB9CE068DC8D1E110647 /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
 		75195ED07940F16D30DD51806F505FC1 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/stack.h; sourceTree = "<group>"; };
 		7588312312912150DD157AA748A6AF93 /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = main_impl.h; path = secp256k1_ios/src/modules/ecdh/main_impl.h; sourceTree = "<group>"; };
@@ -872,6 +957,7 @@
 		768AE4187A300D7921458EBB186519AC /* ICON+Keystore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Keystore.swift"; path = "Source/ICON+Keystore.swift"; sourceTree = "<group>"; };
 		7750A8FFA906C235657DB2C161B9B56E /* EosioRpcProviderEndpointsForProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderEndpointsForProtocol.swift; path = EosioSwift/EosioRpcProvider/Endpoints/EosioRpcProviderEndpointsForProtocol.swift; sourceTree = "<group>"; };
 		779B5279AF6411301EB45063969CF647 /* ICON+Transaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Transaction.swift"; path = "Source/ICON+Transaction.swift"; sourceTree = "<group>"; };
+		779C69D862811D2ECC131A8567D31B46 /* Pods-aloxide-sdk-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swift-umbrella.h"; sourceTree = "<group>"; };
 		782DA2683CEBC9ED14F78441BEBCD011 /* memorystream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memorystream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/memorystream.h; sourceTree = "<group>"; };
 		786C82415E5369DD47ED65DB1186381E /* ZAssert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZAssert.swift; path = EosioSwift/Foundation/ZAssert.swift; sourceTree = "<group>"; };
 		7870E3C47ED27AB579A1AA7E5C724190 /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_impl.h; path = secp256k1_ios/src/scalar_impl.h; sourceTree = "<group>"; };
@@ -889,7 +975,6 @@
 		820EDA89A7492E98BC41CB9EA8FB1211 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/fwd.h; sourceTree = "<group>"; };
 		8217B4550F23F2267003FCEA29AA6E8D /* EosioSwiftEcc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftEcc-umbrella.h"; sourceTree = "<group>"; };
 		8224FA1F44A2F7FB18FDE3F77D160DC5 /* abieos_ripemd160.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_ripemd160.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_ripemd160.hpp; sourceTree = "<group>"; };
-		8319FCE8F19D4B780DA3B38CE4087A96 /* Pods-aloxide-sdk-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		848C19942BE69BAA1B7D4857AAB42073 /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
 		854C9DBC9FBB8B9A67D45F81A77B384A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		859141C03FCDB8EDB9F4D6BF58BFAF67 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
@@ -900,21 +985,20 @@
 		885A7F19EDBEAC34E37F90291F8E302D /* EosioSwiftSoftkeySignatureProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftSoftkeySignatureProvider-umbrella.h"; sourceTree = "<group>"; };
 		89DF18A23BDABC44FE04F60CEC4A0836 /* EosioSwiftEcc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftEcc-prefix.pch"; sourceTree = "<group>"; };
 		8A04293F9C73AA2C26704634062A9F3D /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = Sources/Division.swift; sourceTree = "<group>"; };
-		8A26C23A3A9A4290FB20122553867806 /* Pods-aloxide-sdk-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A8FE4A95365C2C90267F64652BF01A5 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
 		8AF39AE066C41A0B459BFF357ED7AA6E /* secp256k1_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-prefix.pch"; sourceTree = "<group>"; };
+		8C0AC96779777C07B388FE726066BE8E /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m"; sourceTree = "<group>"; };
 		8D090CF7CF0F9FDFB8D6B5327B65F99E /* regex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regex.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/regex.h; sourceTree = "<group>"; };
 		8D4D840D2776914028453260DA66D57D /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
 		8D81716C1371FC917655380840614CBC /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Result/AnyError.swift; sourceTree = "<group>"; };
 		8DA31532985A762C8BE5F25E44076F4F /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/error/error.h; sourceTree = "<group>"; };
 		8E26F45F86B7B46B6EAD13F25F767D63 /* AEADChaCha20Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEADChaCha20Poly1305.swift; path = Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift; sourceTree = "<group>"; };
 		8EA5888E9961C47245E4E3ED9548E7B0 /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
-		8F140E359C760F7E42FC6D931C1A489A /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8F1E869D1CD1BDD3C8809CA89FE2E189 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh"; sourceTree = "<group>"; };
 		900C03E9CA31A2E757A3A4E8A167BF83 /* pointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pointer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/pointer.h; sourceTree = "<group>"; };
 		905EBC08A26C8DFC7AB0ADB171D3422D /* abieos_exception.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = abieos_exception.hpp; path = EosioSwiftAbieosSerializationProvider/abieos_exception.hpp; sourceTree = "<group>"; };
 		9129E072CDEBD30DC83DD5718FDE25B0 /* EosioTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioTransaction.swift; path = EosioSwift/EosioTransaction/EosioTransaction.swift; sourceTree = "<group>"; };
 		91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932FAC1DAE2E435A0265033659602C91 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		936F7D6A5E573964F71409D62826A8BB /* EosioSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwift.framework; path = EosioSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		939620D0B56024281365FACF39FE9845 /* strtod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strtod.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/strtod.h; sourceTree = "<group>"; };
 		93C4DE35D781C430E0D989FB0B8F196F /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32_impl.h; path = secp256k1_ios/src/scalar_8x32_impl.h; sourceTree = "<group>"; };
@@ -951,25 +1035,26 @@
 		A5401E003F75BC50C0A4473316A9876A /* swap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swap.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/swap.h; sourceTree = "<group>"; };
 		A55BFF485D7265A5B7983A374B27C1A3 /* stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/stream.h; sourceTree = "<group>"; };
 		A60A6D2335A61A92FD45B899B0AF0A9E /* EosioRpcProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioRpcProviderProtocol.swift; path = EosioSwift/EosioRpcProviderProtocol/EosioRpcProviderProtocol.swift; sourceTree = "<group>"; };
+		A61E3CCF6F3DD902CDFEFDA71CFF79D4 /* Pods-aloxide-sdk-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aloxide-sdk-swift-frameworks.sh"; sourceTree = "<group>"; };
 		A6AB7A100B015A89C187C4CB30B528E0 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
 		A6BE61C21331397E6C7BD8B64CA99965 /* Cimpl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Cimpl.c; path = scrypt/Cimpl.c; sourceTree = "<group>"; };
 		A71CFA51EA43EF4F21AA9A86910BF7BF /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
 		A75F7D1ACA6F340F7F177D85BF2E9E4D /* BufferStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BufferStorage.swift; path = scrypt/scrypt/BufferStorage.swift; sourceTree = "<group>"; };
-		A7D329EB238FEAB3F8FB945424764ED6 /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A898051D879D30912734C848D5113164 /* EosioSwiftAbieosSerializationProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftAbieosSerializationProvider-prefix.pch"; sourceTree = "<group>"; };
 		A8AD8048AC69F77E911209200E8A0C29 /* GRKOpenSSLFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKOpenSSLFramework.debug.xcconfig; sourceTree = "<group>"; };
 		A90CCBB13AC9609DE8B83773DFAC560A /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
 		A990B874D05262A145AD67F7A606746A /* ICON+Converter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Converter.swift"; path = "Source/ICON+Converter.swift"; sourceTree = "<group>"; };
 		A9DD6DE1F666594950A2A3F1F6ACDEF6 /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen_impl.h; path = secp256k1_ios/src/ecmult_gen_impl.h; sourceTree = "<group>"; };
 		AB3045349F4EC6E5DCD82D178140AB12 /* AllResponseProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllResponseProtocols.swift; path = EosioSwift/EosioRpcProviderProtocol/RpcResponseProtocols/AllResponseProtocols.swift; sourceTree = "<group>"; };
+		AB5C53B4053BD02AB433BC917CE95DA9 /* Pods-aloxide-sdk-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABD5056EACBD4206882FDD26E2DB5320 /* encodings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encodings.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/encodings.h; sourceTree = "<group>"; };
 		AC9673438A8887134DCE8A6F040C2C24 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = Sources/Subtraction.swift; sourceTree = "<group>"; };
 		ACF00601FB6E2097A0F93A530964EC5D /* GCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCM.swift; path = Sources/CryptoSwift/BlockMode/GCM.swift; sourceTree = "<group>"; };
 		AD693C2437F33565C10A3232B3AF4686 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/Exponentiation.swift; sourceTree = "<group>"; };
-		AD70474A44A7FCF18931CC3CB722C121 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h"; sourceTree = "<group>"; };
 		ADBC2F20BD0151F82DD5E8EADD609EB4 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
 		AEAEDF2A0778FA5AE85D9271E108E634 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scrypt.swift; path = scrypt/scrypt/Scrypt.swift; sourceTree = "<group>"; };
 		AED405AF28FC9A92D129B94E330243F2 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		AF4476307A34274BD576773DFB42FD1A /* Pods-aloxide-sdk-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swift-dummy.m"; sourceTree = "<group>"; };
 		AFC89D0F175594276B4927BD2E9A5678 /* strfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strfunc.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/internal/strfunc.h; sourceTree = "<group>"; };
 		B0CB288ECFBC1D12C97E0CCCCF3F6C9A /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Random.swift; sourceTree = "<group>"; };
 		B2E52C18482EBF3AE235EC52F2B012EB /* stringbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringbuffer.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/stringbuffer.h; sourceTree = "<group>"; };
@@ -984,7 +1069,6 @@
 		B6D4671E17F614C85233ABB669C7C0DB /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
 		B6EE1B60E1AF1DC06246756201036C6E /* allocators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allocators.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/allocators.h; sourceTree = "<group>"; };
 		B8116D44B98E40C58DB69D52AD85848B /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/String Conversion.swift"; sourceTree = "<group>"; };
-		B89845A50BA4419E09B03CB9A979B83E /* Pods-aloxide-sdk-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aloxide-sdk-swift-umbrella.h"; sourceTree = "<group>"; };
 		B8B8F43F4DF94DA82DAD411CA52F5404 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
 		B96A618721879F91E1CAF69DCA2036CE /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
 		B9803A54D8EE17B004AF55B0F19BC769 /* EosioSignatureProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioSignatureProviderProtocol.swift; path = EosioSwift/EosioSignatureProviderProtocol/EosioSignatureProviderProtocol.swift; sourceTree = "<group>"; };
@@ -997,7 +1081,6 @@
 		BE2B0A58E748F36BEC4CE7B6AC49BB5D /* EosioSwiftEcc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EosioSwiftEcc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8968D824B0DBE55A58CCC6679058A9 /* BigInt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.release.xcconfig; sourceTree = "<group>"; };
 		BEF347985AD67E2724215D442A216563 /* secp256k1_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = secp256k1_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFAD727DF0139F716655C35ED61BA554 /* Pods-aloxide-sdk-swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swiftTests.modulemap"; sourceTree = "<group>"; };
 		BFE64C4C5C24DAF4BE896CC0539B514B /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
 		C038630AE875DF8D0E516D3BD00E2075 /* istreamwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = istreamwrapper.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/istreamwrapper.h; sourceTree = "<group>"; };
 		C0814A61C6DFD33B06071832AA1824BB /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
@@ -1008,14 +1091,12 @@
 		C4711ADA48748826254FB2589F7BD200 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
 		C4A4D75D2B1EE51E4B96873DA1291624 /* recover.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = recover.cpp; path = EosioSwiftEcc/Recover/recover.cpp; sourceTree = "<group>"; };
 		C4FC7D2975AACBAC8A694B68E12F982B /* ICON+Signer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Signer.swift"; path = "Source/ICON+Signer.swift"; sourceTree = "<group>"; };
-		C5271DEF4BF0072B4096130903C386BF /* Pods-aloxide-sdk-swiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swiftTests-Info.plist"; sourceTree = "<group>"; };
 		C57C4120385A9775216786F45EBD043E /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/Addition.swift; sourceTree = "<group>"; };
 		C5DF32C30A18CEB078CE94BC355E26E1 /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26.h; path = secp256k1_ios/src/field_10x26.h; sourceTree = "<group>"; };
 		C653532D14CFA10CBB5791B386C2A85B /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Sources/CryptoSwift/Int+Extension.swift"; sourceTree = "<group>"; };
 		C76CF1F5BE29671315DF1D3EDA47250F /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64.h; path = secp256k1_ios/src/scalar_4x64.h; sourceTree = "<group>"; };
 		C90C590D0D13A2DA60D18A2BD162A4AB /* scrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scrypt.h; path = scrypt/scrypt.h; sourceTree = "<group>"; };
 		C931D4BF4E00DA0EACAED09C2CCB86B9 /* EosioName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioName.swift; path = EosioSwift/Foundation/EosioName.swift; sourceTree = "<group>"; };
-		C983C2513E7403A19B4DD1D391837446 /* Pods-aloxide-sdk-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aloxide-sdk-swift-dummy.m"; sourceTree = "<group>"; };
 		C9F68583528D2078C696D084A6F06742 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = secp256k1_ios/src/secp256k1.c; sourceTree = "<group>"; };
 		C9FEEA4920C2599AE68C5777C4B0624F /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
 		CA83188429CCC2E60255B35E7BE8D819 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
@@ -1030,6 +1111,7 @@
 		CE726E896B948D81D1461F8591776876 /* EosioSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwift-prefix.pch"; sourceTree = "<group>"; };
 		CEDDD7F8CD9A9C705B2AD1D9D7F157CA /* CTR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTR.swift; path = Sources/CryptoSwift/BlockMode/CTR.swift; sourceTree = "<group>"; };
 		CFB02FFE87E430A883E16B3852116331 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		D09930F3514EC82E3D301C6C40EBD52B /* Pods-aloxide-sdk-swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swiftTests.modulemap"; sourceTree = "<group>"; };
 		D14C5DD628301E11840468EE991B25B0 /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch.h; path = secp256k1_ios/src/scratch.h; sourceTree = "<group>"; };
 		D15E502C9E569BCD68F9FF95AD45D755 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
 		D1F8BDD14E4BF3D6E52462FF0589E897 /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = EosioSwiftAbieosSerializationProvider/date/ios.h; sourceTree = "<group>"; };
@@ -1042,6 +1124,7 @@
 		D6D375D1B3FB08C592DEDE8B1EEEB895 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
 		D79808BE9E3E17828113B064478A1F9B /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1.h; path = secp256k1_ios/include/secp256k1.h; sourceTree = "<group>"; };
 		D7C53D8F5C8C42F46F58D5C5C169CB13 /* document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = document.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/document.h; sourceTree = "<group>"; };
+		D81817FE1139A528A1E6131BF663679B /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D850E1538FB1EB884BBA74B52DC9C97E /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = secp256k1_ios/src/num.h; sourceTree = "<group>"; };
 		D88C7D9FABF3862DAB409DCE6D028C62 /* secp256k1_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "secp256k1_ios-dummy.m"; sourceTree = "<group>"; };
 		D8BAB178785E6278715637E331329F38 /* HKDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKDF.swift; path = Sources/CryptoSwift/HKDF.swift; sourceTree = "<group>"; };
@@ -1049,6 +1132,7 @@
 		DAA3F9D2E7A81CA103AEF7E05B8D4D0E /* Rabbit+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Rabbit+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
 		DAC2D01D23D7A1DF6F93ACFEAA55E227 /* filewritestream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filewritestream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/filewritestream.h; sourceTree = "<group>"; };
 		DB3EA638532E8017006BFDCB8EA53655 /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		DC223883360599CFFE4627B4C9940B83 /* Pods-aloxide-sdk-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swift.modulemap"; sourceTree = "<group>"; };
 		DDB5B01EEAD759F6F593A6C63322B26A /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/Shifts.swift; sourceTree = "<group>"; };
 		DEAC74E0FF03DCC8A3ECC45535B11747 /* abi.abi.json */ = {isa = PBXFileReference; includeInIndex = 1; name = abi.abi.json; path = EosioSwiftAbieosSerializationProvider/abi.abi.json; sourceTree = "<group>"; };
 		DF25396E1282602D8C1519CB6EE900B7 /* EosioSwiftAbieosSerializationProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftAbieosSerializationProvider.release.xcconfig; sourceTree = "<group>"; };
@@ -1065,7 +1149,6 @@
 		E2EFCD4C0FD6D861D436D4CE21899CAD /* EosioSwiftAbieosSerializationProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EosioSwiftAbieosSerializationProvider.framework; path = EosioSwiftAbieosSerializationProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F196DFCB9280A880BD2D3723F1237D /* ICON+Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ICON+Address.swift"; path = "Source/ICON+Address.swift"; sourceTree = "<group>"; };
 		E32BF66ECD0CF4C0E313459DA1C823C8 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E33457CBAF1727B9EF2F2A19E52BF566 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap"; sourceTree = "<group>"; };
 		E363DC23B1315ED065640163E7ECAE7A /* EosioSwiftAbieosSerializationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EosioSwiftAbieosSerializationProvider.h; path = EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.h; sourceTree = "<group>"; };
 		E3817894789E7EBCD187BC9D6C1B502E /* EosioSwiftSoftkeySignatureProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EosioSwiftSoftkeySignatureProvider.modulemap; sourceTree = "<group>"; };
 		E407BA871EA75C2741EB4A5136793547 /* EosioKeySignatureExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EosioKeySignatureExtensions.swift; path = EosioSwift/Extensions/EosioKeySignatureExtensions.swift; sourceTree = "<group>"; };
@@ -1074,11 +1157,12 @@
 		E4B2C125204F0D13EF86D9949B8655E8 /* Array+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Array+Foundation.swift"; sourceTree = "<group>"; };
 		E5AC861291A010AAA4905E49C33316A8 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
 		E781582040A72FF2D1E0E26346F126A7 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E783FDF2E392CFFB455AE5F3AE9A3EAF /* Pods-aloxide-sdk-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		E795A8637D3678F1ED10D466D530C77C /* Rabbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rabbit.swift; path = Sources/CryptoSwift/Rabbit.swift; sourceTree = "<group>"; };
 		E7A87A282B5F036DC342245A46E0D772 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/BigUInt.swift; sourceTree = "<group>"; };
 		E7E026D54BFCF04D13378C56B1A1754C /* ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider-Info.plist"; sourceTree = "<group>"; };
 		E82EF8C5BADD29D638FF5F501DABB256 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E83845BEDA5E8D6B3D9932C1B19F1B3F /* Pods-aloxide-sdk-swiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aloxide-sdk-swiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		E83C671190B9C1C05532DC49FCAB78A9 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap"; sourceTree = "<group>"; };
 		E85297187D4CB52DB4D509ABA286E9AD /* EosioSwiftEcc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftEcc.debug.xcconfig; sourceTree = "<group>"; };
 		E8C35EF7BB18827E41C4291867EB6799 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
 		EA2584C0B00B3D2897C9898B3E7643CA /* BigInt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigInt-Info.plist"; sourceTree = "<group>"; };
@@ -1088,17 +1172,19 @@
 		EBE45F148390D8DD01B830596987AED9 /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
 		EC6BC84E535C43EB4A19F357FF98E6B4 /* Base58String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base58String.swift; path = EosioSwift/Crypto/Base58String.swift; sourceTree = "<group>"; };
 		ED8234DAEEA2D0C83C82278A1F1CA659 /* ICONKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICONKit-umbrella.h"; sourceTree = "<group>"; };
-		EDC91E595EEA841B3B9353E15FAF75A1 /* Pods-aloxide-sdk-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift.release.xcconfig"; sourceTree = "<group>"; };
 		EDEB4A19203FEB0ECD9274ECA291C59F /* secp256k1_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-umbrella.h"; sourceTree = "<group>"; };
 		EF6860DEE415EABD60FDCE1FFF284517 /* CryptoSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CryptoSwift-Info.plist"; sourceTree = "<group>"; };
 		EF976576DD4CA3A30A1B164CF80C3762 /* EosioSwiftAbieosSerializationProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EosioSwiftAbieosSerializationProvider-umbrella.h"; sourceTree = "<group>"; };
+		F072C97C94726C1D1FD99F3B8A5C316C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F15EB5F2383DC5AD525D17A8852E6C80 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
 		F1964C4A55683A870AD6221CCA76BB9D /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "Sources/Prime Test.swift"; sourceTree = "<group>"; };
 		F217B234EF6BCEB690E0EE11BFC763AC /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
 		F2E30D1368F3DA34817266386E181CA1 /* filereadstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filereadstream.h; path = EosioSwiftAbieosSerializationProvider/rapidjson/filereadstream.h; sourceTree = "<group>"; };
+		F38F91DA034A75A338B20E848B7597C9 /* Pods-aloxide-sdk-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		F424A868D20432D7C788B08BC8434BAE /* ICON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICON.swift; path = Source/ICON.swift; sourceTree = "<group>"; };
 		F42D6F10B41C3BD7129809414BB6E5E7 /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26_impl.h; path = secp256k1_ios/src/field_10x26_impl.h; sourceTree = "<group>"; };
 		F4794DE3F9495FB64C1E70D5128731F2 /* islamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = islamic.h; path = EosioSwiftAbieosSerializationProvider/date/islamic.h; sourceTree = "<group>"; };
+		F4B2001679235F17E1EC73864F58DD2C /* Pods-aloxide-sdk-swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aloxide-sdk-swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F51B0542FB81353C33DF3D54DDFF49D8 /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		F5BFDE56E4411CC2143DC537EE2865B8 /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
 		F5EED389978C55404BC3A13824AFCE1B /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_privatekey_parsing.h; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
@@ -1131,7 +1217,6 @@
 		FED963933BD469CD6D99EFBEC04D0F75 /* RequestModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModels.swift; path = EosioSwift/EosioRpcProviderProtocol/RequestModels/RequestModels.swift; sourceTree = "<group>"; };
 		FEDB9815876C76139C38C5C14DDCEB21 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
 		FF2AF3657DABA0BD880EBB805E31174B /* EosioSwiftAbieosSerializationProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EosioSwiftAbieosSerializationProvider.debug.xcconfig; sourceTree = "<group>"; };
-		FFC86131EE7EB13E8FA13EF35DD5D069 /* Pods-aloxide-sdk-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-aloxide-sdk-swift.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1175,14 +1260,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		270771E4DBA075E704C65035864E3B51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0D08519B0C5A041B28BEAB33B9D2F56 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4615548EB7758832B2A94B6B8A4C8275 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1198,6 +1275,14 @@
 			files = (
 				33ED21D43B8C52F0C716E1B3D1C8D043 /* Foundation.framework in Frameworks */,
 				8EA33100BCDE9E4407E5114B9B125D8E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9E50840D89C9F8330D740D39996801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8680DF88191C9CE2526912AD83A1C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1518,6 +1603,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		20C0BA30D3857D481F55B982A8877AC0 /* Pods-aloxide-sdk-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09930F3514EC82E3D301C6C40EBD52B /* Pods-aloxide-sdk-swiftTests.modulemap */,
+				4B0F62D5DAD5AC9B4E3BFBC661E4485A /* Pods-aloxide-sdk-swiftTests-acknowledgements.markdown */,
+				F4B2001679235F17E1EC73864F58DD2C /* Pods-aloxide-sdk-swiftTests-acknowledgements.plist */,
+				74E2F7801A0EA6ABE88379B1C94ABB37 /* Pods-aloxide-sdk-swiftTests-dummy.m */,
+				E83845BEDA5E8D6B3D9932C1B19F1B3F /* Pods-aloxide-sdk-swiftTests-frameworks.sh */,
+				076580381AE492397C6AAFF138E7D39C /* Pods-aloxide-sdk-swiftTests-Info.plist */,
+				17D83770B8920A2BE265DCE81D67A74B /* Pods-aloxide-sdk-swiftTests-umbrella.h */,
+				02605B4BB6EB371983758AE180373ECB /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */,
+				12DA7F6F3FE52E3A559224CC722CEB5D /* Pods-aloxide-sdk-swiftTests.release.xcconfig */,
+			);
+			name = "Pods-aloxide-sdk-swiftTests";
+			path = "Target Support Files/Pods-aloxide-sdk-swiftTests";
+			sourceTree = "<group>";
+		};
 		25D4B0E1B08DD289D98E0EA93B39D662 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1570,22 +1672,6 @@
 			);
 			name = ICONKit;
 			path = ICONKit;
-			sourceTree = "<group>";
-		};
-		2D67A28D91505C1E4C8E8B6ACFF3131C /* Pods-aloxide-sdk-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				BFAD727DF0139F716655C35ED61BA554 /* Pods-aloxide-sdk-swiftTests.modulemap */,
-				14D63BF1F303D2B0AF95FAB926C359C7 /* Pods-aloxide-sdk-swiftTests-acknowledgements.markdown */,
-				0737D75F6026CFAF14BA35DB35713E32 /* Pods-aloxide-sdk-swiftTests-acknowledgements.plist */,
-				4BBB8BDEAA9DCB91F7BC7FED6153D49F /* Pods-aloxide-sdk-swiftTests-dummy.m */,
-				C5271DEF4BF0072B4096130903C386BF /* Pods-aloxide-sdk-swiftTests-Info.plist */,
-				3364D2D69EF20C5D0DC0B6851FC97263 /* Pods-aloxide-sdk-swiftTests-umbrella.h */,
-				A7D329EB238FEAB3F8FB945424764ED6 /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */,
-				5FDF17B0535E3E1577081423EEF6727B /* Pods-aloxide-sdk-swiftTests.release.xcconfig */,
-			);
-			name = "Pods-aloxide-sdk-swiftTests";
-			path = "Target Support Files/Pods-aloxide-sdk-swiftTests";
 			sourceTree = "<group>";
 		};
 		32D468D4592514BF72DE9E2B038BED42 /* Support Files */ = {
@@ -1663,6 +1749,16 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		701EA410962371C6808158CC55322E63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE2A721A69308D2BB854484BDADC1A /* Pods-aloxide-sdk-swift */,
+				84D6B4C77EFF59EFC36F1C96ECFE3664 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests */,
+				20C0BA30D3857D481F55B982A8877AC0 /* Pods-aloxide-sdk-swiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		758BC94D0B8A37B08E33CFD5ED3BB848 /* PromiseKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1685,14 +1781,21 @@
 			path = GRKOpenSSLFramework;
 			sourceTree = "<group>";
 		};
-		947F3AB0F4E4C629FEFB13438D44A2E0 /* Targets Support Files */ = {
+		84D6B4C77EFF59EFC36F1C96ECFE3664 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9D2FEE862319E90B1B465EFD11B10849 /* Pods-aloxide-sdk-swift */,
-				A2C5D5EBECFE16ED9848B78AE83D205E /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests */,
-				2D67A28D91505C1E4C8E8B6ACFF3131C /* Pods-aloxide-sdk-swiftTests */,
+				E83C671190B9C1C05532DC49FCAB78A9 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap */,
+				D81817FE1139A528A1E6131BF663679B /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown */,
+				506EC8A5EFA7EC8ACEB4811533D3553C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist */,
+				8C0AC96779777C07B388FE726066BE8E /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */,
+				8F1E869D1CD1BDD3C8809CA89FE2E189 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh */,
+				1D9E1244D57630BBE7BE85C97D5F458A /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist */,
+				3F6AEA905BB5C6436DC083CEBE6B2C52 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */,
+				F072C97C94726C1D1FD99F3B8A5C316C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */,
+				399C36D4EE4D4F0F6595D9C60FB3BF36 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests";
+			path = "Target Support Files/Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests";
 			sourceTree = "<group>";
 		};
 		983EAE591F12DB06811C577B9E7908AC /* scrypt */ = {
@@ -1708,23 +1811,6 @@
 			);
 			name = scrypt;
 			path = scrypt;
-			sourceTree = "<group>";
-		};
-		9D2FEE862319E90B1B465EFD11B10849 /* Pods-aloxide-sdk-swift */ = {
-			isa = PBXGroup;
-			children = (
-				FFC86131EE7EB13E8FA13EF35DD5D069 /* Pods-aloxide-sdk-swift.modulemap */,
-				8A26C23A3A9A4290FB20122553867806 /* Pods-aloxide-sdk-swift-acknowledgements.markdown */,
-				E783FDF2E392CFFB455AE5F3AE9A3EAF /* Pods-aloxide-sdk-swift-acknowledgements.plist */,
-				C983C2513E7403A19B4DD1D391837446 /* Pods-aloxide-sdk-swift-dummy.m */,
-				230119F72D28BA4C3F0208F6DB439BF4 /* Pods-aloxide-sdk-swift-frameworks.sh */,
-				2F8ABE3A133B10BCF5D28B6BE6727BC5 /* Pods-aloxide-sdk-swift-Info.plist */,
-				B89845A50BA4419E09B03CB9A979B83E /* Pods-aloxide-sdk-swift-umbrella.h */,
-				8319FCE8F19D4B780DA3B38CE4087A96 /* Pods-aloxide-sdk-swift.debug.xcconfig */,
-				EDC91E595EEA841B3B9353E15FAF75A1 /* Pods-aloxide-sdk-swift.release.xcconfig */,
-			);
-			name = "Pods-aloxide-sdk-swift";
-			path = "Target Support Files/Pods-aloxide-sdk-swift";
 			sourceTree = "<group>";
 		};
 		9F20568B553188375C3CE2616352B6E7 /* Foundation */ = {
@@ -1746,23 +1832,6 @@
 			name = Foundation;
 			sourceTree = "<group>";
 		};
-		A2C5D5EBECFE16ED9848B78AE83D205E /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E33457CBAF1727B9EF2F2A19E52BF566 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.modulemap */,
-				21B2CA8B5F9199B18D0693AB37CE7B01 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.markdown */,
-				0A8D8BA6A718C87F6A9469FC6CE6CD0F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-acknowledgements.plist */,
-				4C5E8F79E67BE2B8D8EBF53A3DF1A27F /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-dummy.m */,
-				8F140E359C760F7E42FC6D931C1A489A /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-frameworks.sh */,
-				6D1336F7E4C13AD1F64B98D9F73FE5B3 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-Info.plist */,
-				AD70474A44A7FCF18931CC3CB722C121 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests-umbrella.h */,
-				46796AE02A1EF7303078FF67E4E1EB8C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */,
-				932FAC1DAE2E435A0265033659602C91 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */,
-			);
-			name = "Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests";
-			path = "Target Support Files/Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests";
-			sourceTree = "<group>";
-		};
 		A5611D241BEE40EC6ADE0556B778334C /* EosioSwiftSoftkeySignatureProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -1772,6 +1841,23 @@
 			);
 			name = EosioSwiftSoftkeySignatureProvider;
 			path = EosioSwiftSoftkeySignatureProvider;
+			sourceTree = "<group>";
+		};
+		B2CE2A721A69308D2BB854484BDADC1A /* Pods-aloxide-sdk-swift */ = {
+			isa = PBXGroup;
+			children = (
+				DC223883360599CFFE4627B4C9940B83 /* Pods-aloxide-sdk-swift.modulemap */,
+				AB5C53B4053BD02AB433BC917CE95DA9 /* Pods-aloxide-sdk-swift-acknowledgements.markdown */,
+				F38F91DA034A75A338B20E848B7597C9 /* Pods-aloxide-sdk-swift-acknowledgements.plist */,
+				AF4476307A34274BD576773DFB42FD1A /* Pods-aloxide-sdk-swift-dummy.m */,
+				A61E3CCF6F3DD902CDFEFDA71CFF79D4 /* Pods-aloxide-sdk-swift-frameworks.sh */,
+				058EAB392D0D80EA534771795343AD75 /* Pods-aloxide-sdk-swift-Info.plist */,
+				779C69D862811D2ECC131A8567D31B46 /* Pods-aloxide-sdk-swift-umbrella.h */,
+				1F6184BDDC21FAAA88B7754BB4438701 /* Pods-aloxide-sdk-swift.debug.xcconfig */,
+				1221A6170AB9DB52F7A9B5C444CFEA4F /* Pods-aloxide-sdk-swift.release.xcconfig */,
+			);
+			name = "Pods-aloxide-sdk-swift";
+			path = "Target Support Files/Pods-aloxide-sdk-swift";
 			sourceTree = "<group>";
 		};
 		B36234006C5412C464DB129163D9F5C1 /* Support Files */ = {
@@ -1858,7 +1944,7 @@
 				25D4B0E1B08DD289D98E0EA93B39D662 /* Frameworks */,
 				1A818176004769A841E7A96CB457C547 /* Pods */,
 				EE05C7E64733230E98E5562147E2251B /* Products */,
-				947F3AB0F4E4C629FEFB13438D44A2E0 /* Targets Support Files */,
+				701EA410962371C6808158CC55322E63 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2066,6 +2152,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DB1472E2C387018603F40734FDCB0BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9830DE87587489A96417ADFC732B607 /* Pods-aloxide-sdk-swiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14A90423E6A2D23171830C8A7DDCFDEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2121,14 +2215,6 @@
 				128C630D17B3AAA9032A47CB5B22989A /* tz.h in Headers */,
 				44AD55080CEA302284621FF0143356D5 /* tz_private.h in Headers */,
 				2BB42DBE64EC897B61C73B481B85D66E /* writer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14D443750F4622A28D04C34EB8659D17 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49112ECDC745A89D0F78DDD185987312 /* Pods-aloxide-sdk-swiftTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2536,17 +2622,29 @@
 		};
 		E173C5FB0CB9EBEBD52106C8DDFE5B32 /* Pods-aloxide-sdk-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A816DF7D6D07C36DD208DA8B7A6DD27 /* Build configuration list for PBXNativeTarget "Pods-aloxide-sdk-swiftTests" */;
+			buildConfigurationList = 0A6A1A5D894B0CA2D1FB44B06A76325F /* Build configuration list for PBXNativeTarget "Pods-aloxide-sdk-swiftTests" */;
 			buildPhases = (
-				14D443750F4622A28D04C34EB8659D17 /* Headers */,
-				E26B5F2AE02CD3A58D8FE1C5F28CCF29 /* Sources */,
-				270771E4DBA075E704C65035864E3B51 /* Frameworks */,
-				FA189F95E1345634B455789CB877A356 /* Resources */,
+				0DB1472E2C387018603F40734FDCB0BA /* Headers */,
+				9708D58A3F241033AB33F0876E353D43 /* Sources */,
+				6A9E50840D89C9F8330D740D39996801 /* Frameworks */,
+				6A12961F5902F1976BBF0285A58F39C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				28CA6C08300AD862B5EA1591B446283A /* PBXTargetDependency */,
+				0DE9BB4738762315256D6BBAC9F5DFEE /* PBXTargetDependency */,
+				48C144833C9E8D44B79DB86FA5F92444 /* PBXTargetDependency */,
+				4A4CB234128A58052C89F07E1D76C362 /* PBXTargetDependency */,
+				151FF63D2C66328C495523ED61A86126 /* PBXTargetDependency */,
+				5B194B735DA996A17EBF64E6F6F98EB6 /* PBXTargetDependency */,
+				478E32426C1326474A200A68C69AD05B /* PBXTargetDependency */,
+				020CC161ECD4786BC0BDBCFE3AACEA57 /* PBXTargetDependency */,
+				457D7C92211DD160F9CD415DEFE7A919 /* PBXTargetDependency */,
+				1906FC19AB24BDB6486839F7396C4D51 /* PBXTargetDependency */,
+				8C18775362725DBAB9166C88D0D60092 /* PBXTargetDependency */,
+				CF01E70C5AA2AFFEC610DA93FFD08832 /* PBXTargetDependency */,
+				0C2BC14347C8A46D96209262DC94674B /* PBXTargetDependency */,
+				971D17A63D5437BE16C3D6FCE4CA4EAE /* PBXTargetDependency */,
 			);
 			name = "Pods-aloxide-sdk-swiftTests";
 			productName = "Pods-aloxide-sdk-swiftTests";
@@ -2656,6 +2754,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A12961F5902F1976BBF0285A58F39C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		722203D5DAE137A08174145A4F7C14E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2727,13 +2832,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F8B0F4FF367C140A805B94EF00574630 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA189F95E1345634B455789CB877A356 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2865,6 +2963,14 @@
 				B07A66454547FC83C32C2B69FAFB0CD5 /* EosioEccSign.swift in Sources */,
 				58B6CA6D5BBC94CE9A1AB6D592753999 /* EosioSwiftEcc-dummy.m in Sources */,
 				0EEC98B948E17DAA43CBE601859A3CAF /* recover.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9708D58A3F241033AB33F0876E353D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6F22E291ABD983ABE2996ED5D3630 /* Pods-aloxide-sdk-swiftTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3058,14 +3164,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26B5F2AE02CD3A58D8FE1C5F28CCF29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0EA4B3962303AE1477CF714685B1B37 /* Pods-aloxide-sdk-swiftTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EC5BDF4A90DB2F96E03C29F814A583D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3077,6 +3175,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		020CC161ECD4786BC0BDBCFE3AACEA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRKOpenSSLFramework;
+			target = 06D25A4FF2ED1E3CE5A9A0822BE1F300 /* GRKOpenSSLFramework */;
+			targetProxy = C068E4BB5DF88666A9D35893C722C5DC /* PBXContainerItemProxy */;
+		};
 		05634AF73F23741B119559021BC7C5F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BigInt;
@@ -3088,6 +3192,30 @@
 			name = ICONKit;
 			target = 7022E087D5369965AA77F34191AAE080 /* ICONKit */;
 			targetProxy = CB8D7AFC1808ECB2DA48A347B8784260 /* PBXContainerItemProxy */;
+		};
+		0C2BC14347C8A46D96209262DC94674B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = scrypt;
+			target = FC9C7EAA3A42AFD2984C36F6D25C31A5 /* scrypt */;
+			targetProxy = F8FE69A4B72843449221DD85F10D702D /* PBXContainerItemProxy */;
+		};
+		0DE9BB4738762315256D6BBAC9F5DFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = 533604121A7CEA49438E06CF3F404A04 /* PBXContainerItemProxy */;
+		};
+		151FF63D2C66328C495523ED61A86126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftAbieosSerializationProvider;
+			target = 382B8C2672491F3FE8AF9C3F5C774A62 /* EosioSwiftAbieosSerializationProvider */;
+			targetProxy = 80BE9DF0E28E69BDC3652E048505143A /* PBXContainerItemProxy */;
+		};
+		1906FC19AB24BDB6486839F7396C4D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-aloxide-sdk-swift";
+			target = 51DBFE6A6C0A2825C0BA768DF0AB93D4 /* Pods-aloxide-sdk-swift */;
+			targetProxy = F09CAB6F7EE5FAB90E07D68472A95E52 /* PBXContainerItemProxy */;
 		};
 		2048763A8B3EBBFAE992D6D800CE91A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3107,12 +3235,6 @@
 			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
 			targetProxy = 1DD0B61E68D4AE058E5BB06BB4344582 /* PBXContainerItemProxy */;
 		};
-		28CA6C08300AD862B5EA1591B446283A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-aloxide-sdk-swift";
-			target = 51DBFE6A6C0A2825C0BA768DF0AB93D4 /* Pods-aloxide-sdk-swift */;
-			targetProxy = 83919D2C55E2308C1F47DFACA4AD1FD5 /* PBXContainerItemProxy */;
-		};
 		2B904A00A8AE70E64AE7F05278FEFEF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = secp256k1_ios;
@@ -3124,6 +3246,30 @@
 			name = CryptoSwift;
 			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
 			targetProxy = 9E96D3FFEC24AA7AEBB954946344E030 /* PBXContainerItemProxy */;
+		};
+		457D7C92211DD160F9CD415DEFE7A919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ICONKit;
+			target = 7022E087D5369965AA77F34191AAE080 /* ICONKit */;
+			targetProxy = E71EBFF54BC1E3749EC0B3D15B35D729 /* PBXContainerItemProxy */;
+		};
+		478E32426C1326474A200A68C69AD05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftSoftkeySignatureProvider;
+			target = E80DF59FBB7E1F74EE85DA494739FD82 /* EosioSwiftSoftkeySignatureProvider */;
+			targetProxy = A97B6D20B057F9D669F1A392C25CF340 /* PBXContainerItemProxy */;
+		};
+		48C144833C9E8D44B79DB86FA5F92444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			target = 99313990C1D76A6D1D017868B6975CC8 /* CryptoSwift */;
+			targetProxy = 3362D8C1A99B74BE8FFAE0EB89B58E41 /* PBXContainerItemProxy */;
+		};
+		4A4CB234128A58052C89F07E1D76C362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwift;
+			target = 48DD11FE3425410A409E55A889EACD4E /* EosioSwift */;
+			targetProxy = 2E2041E9FCC5DE82053D092B42067C9C /* PBXContainerItemProxy */;
 		};
 		4A671945C807672BE247CF927392BA6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3148,6 +3294,12 @@
 			name = Result;
 			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
 			targetProxy = FB76011CACA878708E9E4E9902C55832 /* PBXContainerItemProxy */;
+		};
+		5B194B735DA996A17EBF64E6F6F98EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EosioSwiftEcc;
+			target = 9D51AEB6C34F478BB7906F0EF1819936 /* EosioSwiftEcc */;
+			targetProxy = 14AF8CFD17489ACAC2711A6596CCB951 /* PBXContainerItemProxy */;
 		};
 		5BAAAC5EDBCD55D347A0D77CAAC897C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3209,11 +3361,23 @@
 			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
 			targetProxy = 4A4D36C4B3D3C812212F27952CE065BF /* PBXContainerItemProxy */;
 		};
+		8C18775362725DBAB9166C88D0D60092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = A38D82DCF77338C785786AD5E18D9A03 /* PBXContainerItemProxy */;
+		};
 		94509B9F9B0CED6BBBE4351BE5B8F414 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider";
 			target = D2341A38E4995D75FC811B1B46BD7AC2 /* EosioSwiftAbieosSerializationProvider-EosioSwiftAbieosSerializationProvider */;
 			targetProxy = AE7F5D43A7A1649D80578DD02F46DD6E /* PBXContainerItemProxy */;
+		};
+		971D17A63D5437BE16C3D6FCE4CA4EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = secp256k1_ios;
+			target = A2701971E9F776D08826CE4ABC57817F /* secp256k1_ios */;
+			targetProxy = 82889529FABD679652AFAC7D0B588E9A /* PBXContainerItemProxy */;
 		};
 		97A75520F6F9C293DE6ADCFF3658454A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3274,6 +3438,12 @@
 			name = Result;
 			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
 			targetProxy = 32517493D553E1E7CA6E8CAFF3DF46F8 /* PBXContainerItemProxy */;
+		};
+		CF01E70C5AA2AFFEC610DA93FFD08832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
+			targetProxy = 3589979A4148E8046F59465D93B30CE2 /* PBXContainerItemProxy */;
 		};
 		D10A2E2211AA87D18513F6521A9D7846 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3388,7 +3558,7 @@
 		};
 		14666C8A046EDF5A9B2111F8BC825D20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932FAC1DAE2E435A0265033659602C91 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */;
+			baseConfigurationReference = 399C36D4EE4D4F0F6595D9C60FB3BF36 /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3570,7 +3740,7 @@
 		};
 		29EB8E7715F1B389B11205BB7060E7A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8319FCE8F19D4B780DA3B38CE4087A96 /* Pods-aloxide-sdk-swift.debug.xcconfig */;
+			baseConfigurationReference = 1F6184BDDC21FAAA88B7754BB4438701 /* Pods-aloxide-sdk-swift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3642,6 +3812,44 @@
 			};
 			name = Debug;
 		};
+		3629968BD3B1450E13FC0C5E229B3228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02605B4BB6EB371983758AE180373ECB /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		37C3446F0A74F40CAA685BDB500AAEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8AD8048AC69F77E911209200E8A0C29 /* GRKOpenSSLFramework.debug.xcconfig */;
@@ -3660,7 +3868,7 @@
 		};
 		3E1D6D17C1108CD2DD8E6CDA0CE3909A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC91E595EEA841B3B9353E15FAF75A1 /* Pods-aloxide-sdk-swift.release.xcconfig */;
+			baseConfigurationReference = 1221A6170AB9DB52F7A9B5C444CFEA4F /* Pods-aloxide-sdk-swift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3770,7 +3978,7 @@
 		};
 		4322036201A28BF9F50DDB5D5E0402E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46796AE02A1EF7303078FF67E4E1EB8C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */;
+			baseConfigurationReference = F072C97C94726C1D1FD99F3B8A5C316C /* Pods-aloxide-sdk-swift-aloxide-sdk-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3982,83 +4190,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		826439F5B58E49D4590BB6CBE57104CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FDF17B0535E3E1577081423EEF6727B /* Pods-aloxide-sdk-swiftTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		843B92AC72469FA2B55BE216DEDE34EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7D329EB238FEAB3F8FB945424764ED6 /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		84C6F51BBA730EDD79CD8125D40B2214 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4328,6 +4459,45 @@
 			};
 			name = Debug;
 		};
+		C4D7CCDCC032C1025E032E658EA5D97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DA7F6F3FE52E3A559224CC722CEB5D /* Pods-aloxide-sdk-swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D7A72CD2E6D9A4C96A215DF4FBCF6E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96653C37CC7415193BA312FAFFEC69D0 /* secp256k1_ios.debug.xcconfig */;
@@ -4528,6 +4698,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A6A1A5D894B0CA2D1FB44B06A76325F /* Build configuration list for PBXNativeTarget "Pods-aloxide-sdk-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3629968BD3B1450E13FC0C5E229B3228 /* Debug */,
+				C4D7CCDCC032C1025E032E658EA5D97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		11AB3743055D7956AE4E0EE69B08662F /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4560,15 +4739,6 @@
 			buildConfigurations = (
 				A6F9E0F10E7458053B5BAED7B396FB27 /* Debug */,
 				3EB1FDA19A32FE621D8CF7DEA51441CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A816DF7D6D07C36DD208DA8B7A6DD27 /* Build configuration list for PBXNativeTarget "Pods-aloxide-sdk-swiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				843B92AC72469FA2B55BE216DEDE34EE /* Debug */,
-				826439F5B58E49D4590BB6CBE57104CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
