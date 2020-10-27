@@ -67,7 +67,7 @@ class EOSNetwork: BlockchainNetwork{
         return true
     }
     
-    func add(params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func add(params: [String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         let methodName = "cre"+self.entityName
         let isValid = self.validate()
         if !isValid {
@@ -77,14 +77,16 @@ class EOSNetwork: BlockchainNetwork{
         self.sendTransaction(methodName: methodName, params: params,completion: completion)
     }
     
-    func update(id: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func update(id: String, params: [String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         let methodName = "upd"+self.entityName
         let isValid = self.validate()
         if !isValid {
             completion(.failure(AloxideExceptions(code: -1, message: "Invalid")))
             return
         }
-        self.sendTransaction(methodName: methodName, params: params,completion: completion)
+        var data = ["id":id]
+        params.forEach { (k,v) in data[k] = v as? String }
+        self.sendTransaction(methodName: methodName, params: data,completion: completion)
     }
     
     /**
@@ -125,7 +127,7 @@ class EOSNetwork: BlockchainNetwork{
         return nil
     }
     
-    func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func delete(id: String,completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         let methodName = "del"+self.entityName
         let isValid = self.validate()
         if !isValid {
@@ -135,7 +137,7 @@ class EOSNetwork: BlockchainNetwork{
         self.sendTransaction(methodName: methodName, params: ["id":id],completion: completion)
     }
     
-    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         
         if self.account.name == nil {
             completion(.failure(AloxideExceptions(code: -1, message: "Please provide account name!")))
@@ -147,7 +149,7 @@ class EOSNetwork: BlockchainNetwork{
             return
         }
         
-        // Get a new transaction from our transaction factory.
+        // Get a new transaction from transaction factory.
         let transaction = transactionFactory.newTransaction()
         
         // Because EOS Network, the smart contract need the field `user`: `account_name`
@@ -171,11 +173,14 @@ class EOSNetwork: BlockchainNetwork{
             // Sign and broadcast.
             transaction.signAndBroadcast { result in
                 // Handle our result, success or failure, appropriately.
+                print(try! transaction.toJson(prettyPrinted: true))
                 switch result {
                 case .failure (let e):
                     completion(.failure(AloxideExceptions(code: -1, message: e.reason )))
                 case .success:
-                    completion(.success(true))
+                    if let transactionId = transaction.transactionId {
+                        completion(.success(transactionId))
+                    }
                 }
             }
         }

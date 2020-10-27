@@ -54,7 +54,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBAction func onClick(_ sender: Any) {
         print("clicked")
-    
+        
     }
     
     func loadEnv(_ row: Int)  {
@@ -100,7 +100,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         self.readJson()
         self.loadEnv(0)
-
+        
         // ICONNN
         //        let blockchainAccount = BlockchainAccountBuilder()
         //            .setAddress(address: "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb")
@@ -115,44 +115,44 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         //            .setEntityName(entityName: "Poll")
         //            .setBlockchainAccount(blockchainAccount: blockchainAccount)
         //            .build()
-
-
-                let blockchainAccount = BlockchainAccountBuilder()
-                    .setName(name: "aloxidejs123")
-                    .setPrivateKey(privateKey: "5JHQ3GuzcQtEQgG3SGvtDU7v2b7ioKznYBizA1V5mBUUsLNcXdQ")
-                    .build()
         
-                let poll = AloxideBuilder.newBuilder()
-                    .setNetwork(network: Network.EOS)
-                    .setContract(contract: "aloxidejs123")
-                    .setUrl(url: "https://testnet.canfoundation.io")
-                    .setEntityName(entityName: "Poll")
-                    .setBlockchainAccount(blockchainAccount: blockchainAccount)
-                    .build()
-
-
-//                poll.get(id: "1") { res in
-//                    switch res{
-//                    case .success(let res):
-//                        print(res)
-//                        break
-//                    case .failure(let e):
-//                        print(e.message)
-//                        break
-//                    }
-//                }
-
-                poll.add(params: ["id":"1232","name":"2010name","body":"2010body"]) { res in
-                    switch res{
-                    case .success(let res):
-                        print(res)
-                        break
-                    case .failure(let e):
-                        print(e.message)
-                        break
-                    }
-                }
-
+        
+        let blockchainAccount = BlockchainAccountBuilder()
+            .setName(name: "aloxidejs123")
+            .setPrivateKey(privateKey: "5JHQ3GuzcQtEQgG3SGvtDU7v2b7ioKznYBizA1V5mBUUsLNcXdQ")
+            .build()
+        
+        let poll = AloxideBuilder.newBuilder()
+            .setNetwork(network: Network.EOS)
+            .setContract(contract: "aloxidejs123")
+            .setUrl(url: "https://testnet.canfoundation.io")
+            .setEntityName(entityName: "Poll")
+            .setBlockchainAccount(blockchainAccount: blockchainAccount)
+            .build()
+        
+        
+        //                poll.get(id: "1") { res in
+        //                    switch res{
+        //                    case .success(let res):
+        //                        print(res)
+        //                        break
+        //                    case .failure(let e):
+        //                        print(e.message)
+        //                        break
+        //                    }
+        //                }
+        
+        // poll.add(params: ["id":"123232","name":"2010name","body":"2010body"]) { res in
+        //     switch res{
+        //     case .success(let res):
+        //         print(res)
+        //         break
+        //     case .failure(let e):
+        //         print(e.message)
+        //         break
+        //     }
+        // }
+        
         //                poll.update(id: "2020",params: ["id":"2020","name":"2010name updated","body":"2010body updated"]) { res in
         //                    switch res{
         //                    case .success(let res):
@@ -163,7 +163,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         //                        break
         //                    }
         //                }
-
+        
         //                poll.delete(id: "2020") { res in
         //                    switch res{
         //                    case .success(let res):

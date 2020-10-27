@@ -68,12 +68,12 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "2E49C721-DC7C-4CC2-ACE3-020A604E7AB9 - c1ab6f07b06bf4aa"
+                  uuid = "2E49C721-DC7C-4CC2-ACE3-020A604E7AB9 - f6479a2f2c2d8928"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "aloxide_sdk_swift.ICONNetwork.get(id: Any) -&gt; Swift.Optional&lt;Any&gt;"
-                  moduleName = "aloxide-sdk-swift"
+                  symbolName = "aloxide_sdk_swiftTests.ICONNetwork.get(id: Any) -&gt; Swift.Optional&lt;Any&gt;"
+                  moduleName = "aloxide-sdk-swiftTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swift/service/ICONNetwork.swift"
                   startingColumnNumber = "9223372036854775807"
@@ -83,12 +83,12 @@
                   offsetFromSymbolStart = "1648">
                </Location>
                <Location
-                  uuid = "2E49C721-DC7C-4CC2-ACE3-020A604E7AB9 - c1ab6f07b06bf4aa"
+                  uuid = "2E49C721-DC7C-4CC2-ACE3-020A604E7AB9 - f6479a2f2c2d8928"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "aloxide_sdk_swift.ICONNetwork.get(id: Any) -&gt; Swift.Optional&lt;Any&gt;"
-                  moduleName = "aloxide-sdk-swift"
+                  symbolName = "aloxide_sdk_swiftTests.ICONNetwork.get(id: Any) -&gt; Swift.Optional&lt;Any&gt;"
+                  moduleName = "aloxide-sdk-swiftTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swift/service/ICONNetwork.swift"
                   startingColumnNumber = "9223372036854775807"
@@ -142,8 +142,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "get(id:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +158,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "get(id:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -239,54 +239,6 @@
             startingLineNumber = "642"
             endingLineNumber = "642"
             landmarkName = "signAndBroadcast(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0FD1615E-D6D5-4038-9E6F-4E7454F0EC4A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/EosioSwift/EosioSwift/EosioTransaction/EosioTransaction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "460"
-            endingLineNumber = "460"
-            landmarkName = "sign(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6D8FEA06-3334-427C-B606-1472225C9278"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/EosioSwift/EosioSwift/EosioTransaction/EosioTransaction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "463"
-            endingLineNumber = "463"
-            landmarkName = "sign(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4181409E-FA96-46F9-9D86-A6BB33175073"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/EosioSwift/EosioSwift/EosioTransaction/EosioTransaction.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "455"
-            endingLineNumber = "455"
-            landmarkName = "sign(completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -421,7 +373,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F12CF74E-A24C-4006-B7F7-F00B45853303"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/EosioSwift/EosioSwift/EosioTransaction/EosioTransaction.swift"
@@ -507,8 +459,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "sendTransaction(methodName:params:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -724,22 +676,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2A5A0132-7219-4ACF-AED5-6ED110EEAB4F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
-            landmarkName = "sendTransaction(methodName:params:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "95AFA4A3-D077-4691-A64D-8E807D4B8F0E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -747,8 +683,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "sendTransaction(methodName:params:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -763,8 +699,8 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "testWrite()"
             landmarkType = "7">
          </BreakpointContent>
@@ -779,8 +715,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "sendTransaction(methodName:params:completion:)"
             landmarkType = "7">
             <Locations>
@@ -820,38 +756,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F56786D8-E1FB-4B27-8C62-ABD5BEFB016F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "printSuccess(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6A541FEF-D84D-42E7-8F56-FB489AC9328B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "printError(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4E5FC287-76A4-40A5-A285-3478E18CB043"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -859,8 +763,8 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "testWrite()"
             landmarkType = "7">
          </BreakpointContent>
@@ -875,8 +779,8 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "testWrite()"
             landmarkType = "7">
          </BreakpointContent>
@@ -885,7 +789,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "23F7CF74-C8A1-4096-8273-E878E37A1E49"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "aloxide-sdk-swift/ViewController.swift"
@@ -901,7 +805,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4ECF1CF3-69C9-437B-A06E-E18988A875C1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "aloxide-sdk-swift/ViewController.swift"
@@ -917,7 +821,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "62D359C0-4D66-4D34-AB9F-73FA8485753A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "aloxide-sdk-swift/ViewController.swift"
@@ -933,7 +837,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "23E90092-7D14-402F-BBF2-1CEB8393AC47"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "aloxide-sdk-swift/ViewController.swift"
@@ -949,14 +853,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "178F218F-183D-464F-84C1-9EB03381BFEC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "sendTransaction(methodName:params:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -971,8 +875,8 @@
             filePath = "aloxide-sdk-swift/service/EOSNetwork.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "sendTransaction(methodName:params:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -987,8 +891,8 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "testUpdate()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1003,10 +907,42 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "testUpdate()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC94C921-AB99-4F98-9984-8F680A4C3566 - 5c4dc3faf2331590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (aloxide_sdk_swiftTests.AloxideResult&lt;Swift.String, aloxide_sdk_swiftTests.AloxideExceptions&gt;) -&gt; () in aloxide_sdk_swiftTests.EOSTest.testUpdate() throws -&gt; ()"
+                  moduleName = "aloxide-sdk-swiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swiftTests/EOSTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "465">
+               </Location>
+               <Location
+                  uuid = "CC94C921-AB99-4F98-9984-8F680A4C3566 - 5c4dc3faf2331590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (aloxide_sdk_swiftTests.AloxideResult&lt;Swift.String, aloxide_sdk_swiftTests.AloxideExceptions&gt;) -&gt; () in aloxide_sdk_swiftTests.EOSTest.testUpdate() throws -&gt; ()"
+                  moduleName = "aloxide-sdk-swiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swiftTests/EOSTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1019,8 +955,8 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "testDelete()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1035,10 +971,42 @@
             filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "testDelete()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "685DBE2F-BAA4-433C-AC27-9B87941E661A - 1c086460bb9424f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (aloxide_sdk_swiftTests.AloxideResult&lt;Swift.String, aloxide_sdk_swiftTests.AloxideExceptions&gt;) -&gt; () in aloxide_sdk_swiftTests.EOSTest.testDelete() throws -&gt; ()"
+                  moduleName = "aloxide-sdk-swiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swiftTests/EOSTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "465">
+               </Location>
+               <Location
+                  uuid = "685DBE2F-BAA4-433C-AC27-9B87941E661A - 1c086460bb9424f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (aloxide_sdk_swiftTests.AloxideResult&lt;Swift.String, aloxide_sdk_swiftTests.AloxideExceptions&gt;) -&gt; () in aloxide_sdk_swiftTests.EOSTest.testDelete() throws -&gt; ()"
+                  moduleName = "aloxide-sdk-swiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quocb14005xx/Documents/aloxide/aloxide-sdk-swift/aloxide-sdk-swiftTests/EOSTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1051,8 +1019,8 @@
             filePath = "aloxide-sdk-swiftTests/ICONTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "testGet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1067,8 +1035,8 @@
             filePath = "aloxide-sdk-swiftTests/ICONTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "testGet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1118,6 +1086,166 @@
             startingLineNumber = "58"
             endingLineNumber = "58"
             landmarkName = "get(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F379861-A6FB-4D91-B9C4-0E9FBE4908EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EosioSwift/EosioSwift/EosioTransaction/EosioTransaction.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "461"
+            endingLineNumber = "461"
+            landmarkName = "sign(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DF29D6C-A6BB-4187-A10E-3A4A290AF6D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "configEOS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "668767D2-1C71-4ED3-930A-4A13660DAD8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "802BC569-F0CF-456B-807B-D87ACC022CAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "538B4BD0-CBBA-4FAD-952B-3BDACB123728"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B3D1FAF-1205-4C49-94DB-187F457CF0B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62D1AC80-05FE-4171-B420-2DA7EF45F57D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01E6276B-188A-4D2B-A099-01C6548766B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/AloxideEnv.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "readEnv()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDD4766D-2517-4DDF-9808-C455EDEFE83A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swift/utils/AloxideLogger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getTransactionUrl(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF4538E3-5837-446C-8D2F-8BA66FDEB862"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aloxide-sdk-swiftTests/EOSTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "testWrite()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -87,7 +87,7 @@ class ICONNetwork: BlockchainNetwork{
         }
     }
     
-    func add(params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func add(params: [String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)  {
         let methodName = "cre"+self.entityName
         let isValid = self.validate()
         if !isValid {
@@ -97,7 +97,7 @@ class ICONNetwork: BlockchainNetwork{
         self.sendTransaction(methodName: methodName, params: params,completion: completion)
     }
     
-    func update(id: String, params:[String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func update(id: String, params:[String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)  {
         let methodName = "upd"+self.entityName
         let isValid = self.validate()
         if !isValid {
@@ -109,7 +109,7 @@ class ICONNetwork: BlockchainNetwork{
         self.sendTransaction(methodName: methodName, params: data ,completion: completion)
     }
     
-    func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func delete(id: String,completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)  {
         let methodName = "del"+self.entityName
         let isValid = self.validate()
         if !isValid {
@@ -128,7 +128,7 @@ class ICONNetwork: BlockchainNetwork{
         return true
     }
     
-    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func sendTransaction(methodName: String, params: [String: Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         
         if self.account.privateKey == nil {
             completion(.failure(AloxideExceptions(code: -1, message: "Please provide the private key")))
@@ -153,8 +153,8 @@ class ICONNetwork: BlockchainNetwork{
             let result = request.execute()
             
             switch result {
-            case .success( _):
-                completion(.success(true))
+            case .success( let res):
+                completion(.success(res))
             case .failure( let e):
                 print("[AloxideSwift::ICON::SendTransaction]::ERROR: \(String(describing: e.errorDescription))")
                 completion(.failure(AloxideExceptions(code: -1, message: "Error: \(String(describing: e.errorDescription))")))

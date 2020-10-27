@@ -34,6 +34,9 @@
 		549CCC032546CD22008DAEF6 /* AloxideExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA0A253D8B5D008DA2C0 /* AloxideExtensions.swift */; };
 		549CCC072546CD27008DAEF6 /* Aloxide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA47253D8D11008DA2C0 /* Aloxide.swift */; };
 		549CCC472546D254008DAEF6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA10253D8B79008DA2C0 /* Network.swift */; };
+		549CCC8B2547BF72008DAEF6 /* AloxideLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CCC8A2547BF72008DAEF6 /* AloxideLogger.swift */; };
+		549CCC8C2547BF72008DAEF6 /* AloxideLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CCC8A2547BF72008DAEF6 /* AloxideLogger.swift */; };
+		549CCCEA2547CA7E008DAEF6 /* env.json in Resources */ = {isa = PBXBuildFile; fileRef = 54C8E4482545728A000C2914 /* env.json */; };
 		54BAC03D2546C08A0067F1FC /* ICONTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAC03C2546C08A0067F1FC /* ICONTest.swift */; };
 		54C8E4492545728A000C2914 /* env.json in Resources */ = {isa = PBXBuildFile; fileRef = 54C8E4482545728A000C2914 /* env.json */; };
 		54C8E44E25458CD4000C2914 /* SendTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8E44D25458CD4000C2914 /* SendTransactionViewController.swift */; };
@@ -85,6 +88,7 @@
 		5488AA42253D8CB1008DA2C0 /* AloxideExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloxideExceptions.swift; sourceTree = "<group>"; };
 		5488AA47253D8D11008DA2C0 /* Aloxide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aloxide.swift; sourceTree = "<group>"; };
 		5488AA4D253D8D60008DA2C0 /* BlockchainAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainAccount.swift; sourceTree = "<group>"; };
+		549CCC8A2547BF72008DAEF6 /* AloxideLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloxideLogger.swift; sourceTree = "<group>"; };
 		54BAC03C2546C08A0067F1FC /* ICONTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICONTest.swift; sourceTree = "<group>"; };
 		54C8E4482545728A000C2914 /* env.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = env.json; sourceTree = "<group>"; };
 		54C8E44D25458CD4000C2914 /* SendTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTransactionViewController.swift; sourceTree = "<group>"; };
@@ -220,6 +224,7 @@
 			children = (
 				5488AA42253D8CB1008DA2C0 /* AloxideExceptions.swift */,
 				54E01C48253EFE920060F125 /* AloxideResult.swift */,
+				549CCC8A2547BF72008DAEF6 /* AloxideLogger.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -374,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CCCEA2547CA7E008DAEF6 /* env.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +519,7 @@
 			files = (
 				5488AA48253D8D11008DA2C0 /* Aloxide.swift in Sources */,
 				5488AA11253D8B79008DA2C0 /* Network.swift in Sources */,
+				549CCC8B2547BF72008DAEF6 /* AloxideLogger.swift in Sources */,
 				5488AA43253D8CB1008DA2C0 /* AloxideExceptions.swift in Sources */,
 				5488AA0B253D8B5D008DA2C0 /* AloxideExtensions.swift in Sources */,
 				5488AA1A253D8BA0008DA2C0 /* BlockchainNetwork.swift in Sources */,
@@ -531,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CCC8C2547BF72008DAEF6 /* AloxideLogger.swift in Sources */,
 				54BAC03D2546C08A0067F1FC /* ICONTest.swift in Sources */,
 				5488A9EE253D8B19008DA2C0 /* EOSTest.swift in Sources */,
 				549CCBF92546CD15008DAEF6 /* BlockchainNetwork.swift in Sources */,

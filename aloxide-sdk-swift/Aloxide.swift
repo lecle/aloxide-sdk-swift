@@ -8,9 +8,9 @@
 import Foundation
 protocol AloxideMethodDelegate {
     func get(id: Any)  -> Any?
-    func add(params: [String : Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)
-    func update(id: String, params: [String : Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)
-    func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)
+    func add(params: [String : Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)
+    func update(id: String, params: [String : Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)
+    func delete(id: String,completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)
     func get(id: Any, completion:@escaping (AloxideResult<String, AloxideExceptions>) -> Void)
 
 }
@@ -28,15 +28,15 @@ class Aloxide : AloxideMethodDelegate{
         return blockchainNetwork!.get(id: id)
     }
     
-    func add(params: [String : Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func add(params: [String : Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         return blockchainNetwork!.add(params: params,completion: completion)
     }
     
-    func update(id: String, params: [String : Any],completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void)  {
+    func update(id: String, params: [String : Any],completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void)  {
         return blockchainNetwork!.update(id: id,params: params,completion: completion)
     }
     
-    func delete(id: String,completion: @escaping (AloxideResult<Bool, AloxideExceptions>) -> Void) {
+    func delete(id: String,completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {
         return blockchainNetwork!.delete(id: id,completion: completion)
     }
 }
