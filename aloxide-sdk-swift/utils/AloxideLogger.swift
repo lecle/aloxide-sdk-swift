@@ -19,12 +19,17 @@ class AloxideLogger{
         var output = ""
         var newHost = host
        
-        if network == Network.EOS {
+        if network == Network.CAN {
             if host.contains("https://"){
                 newHost = host.replacingOccurrences(of: "https://", with: "")
             }
             output = "https://local.bloks.io/transaction/" + transactionId + "?nodeUrl=history." + newHost;
-        } else {
+        } else if network == Network.EOS{
+            if host.contains("https://"){
+                newHost = host.replacingOccurrences(of: "https://", with: "")
+            }
+            output = "https://jungle3.bloks.io/transaction/" + transactionId;
+        }else {
             if host.contains(".net"){
                 newHost = host.replacingOccurrences(of: ".net", with: ".tracker")
                 newHost = newHost.replacingOccurrences(of: "/api/v3", with: "")

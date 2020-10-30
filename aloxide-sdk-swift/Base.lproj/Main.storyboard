@@ -127,22 +127,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bK-IU-o7X">
-                                <rect key="frame" x="69" y="91" width="130" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTs-DA-dJG">
+                                <rect key="frame" x="0.0" y="44" width="414" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZD-zv-DKb">
+                                <rect key="frame" x="163" y="832" width="88" height="30"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <state key="normal" title="crepoll"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GbO-bB-Np2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HTs-DA-dJG" firstAttribute="trailing" secondItem="GbO-bB-Np2" secondAttribute="trailing" id="9uQ-yk-ZHE"/>
+                            <constraint firstItem="HTs-DA-dJG" firstAttribute="top" secondItem="GbO-bB-Np2" secondAttribute="top" id="LTl-Oz-T6M"/>
+                            <constraint firstItem="GbO-bB-Np2" firstAttribute="trailing" secondItem="QZD-zv-DKb" secondAttribute="trailing" constant="163" id="Oux-Ur-oWh"/>
+                            <constraint firstItem="QZD-zv-DKb" firstAttribute="leading" secondItem="GbO-bB-Np2" secondAttribute="leading" constant="163" id="SPK-Ea-i9d"/>
+                            <constraint firstItem="QZD-zv-DKb" firstAttribute="leading" secondItem="GbO-bB-Np2" secondAttribute="leading" constant="163" id="agw-b7-lUP"/>
+                            <constraint firstItem="GbO-bB-Np2" firstAttribute="trailing" secondItem="QZD-zv-DKb" secondAttribute="trailing" constant="163" id="gjM-BC-BKk"/>
+                            <constraint firstItem="HTs-DA-dJG" firstAttribute="leading" secondItem="GbO-bB-Np2" secondAttribute="leading" id="nYW-rU-bhN"/>
+                            <constraint firstItem="GbO-bB-Np2" firstAttribute="bottom" secondItem="QZD-zv-DKb" secondAttribute="bottom" id="yWR-fU-ORS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZoU-RR-ZpF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DYb-el-NVe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646" y="72"/>
+            <point key="canvasLocation" x="644.92753623188412" y="71.651785714285708"/>
         </scene>
     </scenes>
     <resources>

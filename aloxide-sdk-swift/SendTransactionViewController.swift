@@ -15,6 +15,7 @@ class  SendTransactionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.test()
+        print("SendTransactionViewController \(String(describing: self.networkSelected))")
     }
     
     func test()  {

@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		0E0B9F894A016C29383E77F7 /* Pods_aloxide_sdk_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BA728B33010213957E44D /* Pods_aloxide_sdk_swiftTests.framework */; };
 		52D5314B7C98974B85B3488E /* Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FEB0CE2204A2DB38472746 /* Pods_aloxide_sdk_swift_aloxide_sdk_swiftUITests.framework */; };
+		542FF5B7254AA0F700E859C2 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FF5B6254AA0F700E859C2 /* Field.swift */; };
+		542FF5BC254AA10B00E859C2 /* FieldDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FF5BB254AA10B00E859C2 /* FieldDetail.swift */; };
+		542FF5F7254BB0E300E859C2 /* EOSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542FF5F5254BB0E300E859C2 /* EOSTest.swift */; };
 		5488A9D7253D8B16008DA2C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9D6253D8B16008DA2C0 /* AppDelegate.swift */; };
 		5488A9D9253D8B16008DA2C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9D8253D8B16008DA2C0 /* SceneDelegate.swift */; };
 		5488A9DB253D8B16008DA2C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9DA253D8B16008DA2C0 /* ViewController.swift */; };
 		5488A9DE253D8B16008DA2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9DC253D8B16008DA2C0 /* Main.storyboard */; };
 		5488A9E0253D8B18008DA2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9DF253D8B18008DA2C0 /* Assets.xcassets */; };
 		5488A9E3253D8B18008DA2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5488A9E1253D8B18008DA2C0 /* LaunchScreen.storyboard */; };
-		5488A9EE253D8B19008DA2C0 /* EOSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9ED253D8B19008DA2C0 /* EOSTest.swift */; };
+		5488A9EE253D8B19008DA2C0 /* CANTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9ED253D8B19008DA2C0 /* CANTest.swift */; };
 		5488A9F9253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488A9F8253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift */; };
 		5488AA0B253D8B5D008DA2C0 /* AloxideExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA0A253D8B5D008DA2C0 /* AloxideExtensions.swift */; };
 		5488AA11253D8B79008DA2C0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5488AA10253D8B79008DA2C0 /* Network.swift */; };
@@ -65,6 +68,9 @@
 		1C51160556B4CA0545AF3226 /* Pods-aloxide-sdk-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aloxide-sdk-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-aloxide-sdk-swiftTests/Pods-aloxide-sdk-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		1CDD07B4FB74BE36F3A08CAE /* Pods-aloxide-sdk-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aloxide-sdk-swift.release.xcconfig"; path = "Target Support Files/Pods-aloxide-sdk-swift/Pods-aloxide-sdk-swift.release.xcconfig"; sourceTree = "<group>"; };
 		2DC7D599EBC4C75A12A08F29 /* Pods_aloxide_sdk_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aloxide_sdk_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542FF5B6254AA0F700E859C2 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		542FF5BB254AA10B00E859C2 /* FieldDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldDetail.swift; sourceTree = "<group>"; };
+		542FF5F5254BB0E300E859C2 /* EOSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSTest.swift; sourceTree = "<group>"; };
 		54373775253EBEB300943B4C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		5488A9D3253D8B16008DA2C0 /* aloxide-sdk-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aloxide-sdk-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5488A9D6253D8B16008DA2C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +81,7 @@
 		5488A9E2253D8B18008DA2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5488A9E4253D8B18008DA2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5488A9E9253D8B18008DA2C0 /* aloxide-sdk-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aloxide-sdk-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5488A9ED253D8B19008DA2C0 /* EOSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOSTest.swift; sourceTree = "<group>"; };
+		5488A9ED253D8B19008DA2C0 /* CANTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CANTest.swift; sourceTree = "<group>"; };
 		5488A9EF253D8B19008DA2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5488A9F4253D8B19008DA2C0 /* aloxide-sdk-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aloxide-sdk-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5488A9F8253D8B19008DA2C0 /* aloxide_sdk_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aloxide_sdk_swiftUITests.swift; sourceTree = "<group>"; };
@@ -177,9 +183,10 @@
 		5488A9EC253D8B18008DA2C0 /* aloxide-sdk-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				5488A9ED253D8B19008DA2C0 /* EOSTest.swift */,
+				5488A9ED253D8B19008DA2C0 /* CANTest.swift */,
 				5488A9EF253D8B19008DA2C0 /* Info.plist */,
 				54BAC03C2546C08A0067F1FC /* ICONTest.swift */,
+				542FF5F5254BB0E300E859C2 /* EOSTest.swift */,
 			);
 			path = "aloxide-sdk-swiftTests";
 			sourceTree = "<group>";
@@ -233,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				5488AA4D253D8D60008DA2C0 /* BlockchainAccount.swift */,
+				542FF5B6254AA0F700E859C2 /* Field.swift */,
+				542FF5BB254AA10B00E859C2 /* FieldDetail.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -339,7 +348,6 @@
 					};
 					5488A9F3253D8B19008DA2C0 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 5488A9D2253D8B16008DA2C0;
 					};
 				};
 			};
@@ -520,8 +528,10 @@
 				5488AA48253D8D11008DA2C0 /* Aloxide.swift in Sources */,
 				5488AA11253D8B79008DA2C0 /* Network.swift in Sources */,
 				549CCC8B2547BF72008DAEF6 /* AloxideLogger.swift in Sources */,
+				542FF5BC254AA10B00E859C2 /* FieldDetail.swift in Sources */,
 				5488AA43253D8CB1008DA2C0 /* AloxideExceptions.swift in Sources */,
 				5488AA0B253D8B5D008DA2C0 /* AloxideExtensions.swift in Sources */,
+				542FF5B7254AA0F700E859C2 /* Field.swift in Sources */,
 				5488AA1A253D8BA0008DA2C0 /* BlockchainNetwork.swift in Sources */,
 				5488AA4E253D8D60008DA2C0 /* BlockchainAccount.swift in Sources */,
 				5488AA22253D8BBA008DA2C0 /* EOSNetwork.swift in Sources */,
@@ -539,8 +549,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				549CCC8C2547BF72008DAEF6 /* AloxideLogger.swift in Sources */,
+				542FF5F7254BB0E300E859C2 /* EOSTest.swift in Sources */,
 				54BAC03D2546C08A0067F1FC /* ICONTest.swift in Sources */,
-				5488A9EE253D8B19008DA2C0 /* EOSTest.swift in Sources */,
+				5488A9EE253D8B19008DA2C0 /* CANTest.swift in Sources */,
 				549CCBF92546CD15008DAEF6 /* BlockchainNetwork.swift in Sources */,
 				549CCC072546CD27008DAEF6 /* Aloxide.swift in Sources */,
 				549CCBFA2546CD18008DAEF6 /* EOSNetwork.swift in Sources */,
@@ -723,6 +734,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -745,6 +757,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -762,7 +775,6 @@
 			baseConfigurationReference = 694A018F0F47C7A92A2FD12F /* Pods-aloxide-sdk-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"BUNDLE_LOADER[arch=*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				INFOPLIST_FILE = "aloxide-sdk-swiftTests/Info.plist";
@@ -773,6 +785,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swiftTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -784,7 +797,6 @@
 			baseConfigurationReference = 1C51160556B4CA0545AF3226 /* Pods-aloxide-sdk-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"BUNDLE_LOADER[arch=*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5WNM73QU9;
 				ENABLE_TESTABILITY = YES;
@@ -796,6 +808,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.lecle.aloxide.aloxide-sdk-swiftTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -820,7 +833,6 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "aloxide-sdk-swift";
 			};
 			name = Debug;
 		};
@@ -842,7 +854,6 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "aloxide-sdk-swift";
 			};
 			name = Release;
 		};

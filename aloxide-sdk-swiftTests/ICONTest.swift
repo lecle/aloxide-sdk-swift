@@ -11,6 +11,7 @@ import XCTest
 class ICONTest: XCTestCase {
     
     func configICON() -> Aloxide {
+        
         let env : [String: Any] = [ /* CHANGE THIS CONFIG*/
             "app_blockchain_name":"ICON Testnet",
             "app_blockchain_type":"icon",
@@ -66,7 +67,7 @@ class ICONTest: XCTestCase {
     func testWrite() throws {
         let aloxide = configICON()
         let expectation = self.expectation(description: "wait")
-        let data = ["id":"203330" /* NEED TO CHANGE */
+        let data = ["id":"1235" /* NEED TO CHANGE */
                     ,"name":"2010name" /* NEED TO CHANGE */
                     ,"body":"2010body"] /* NEED TO CHANGE */
         

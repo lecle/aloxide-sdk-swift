@@ -9,4 +9,5 @@ import Foundation
 enum Network {
     case EOS
     case ICON
+    case CAN
 }

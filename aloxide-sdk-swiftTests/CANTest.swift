@@ -1,23 +1,23 @@
 //
-//  EOSTest.swift
-//  aloxide-sdk-swift
+//  aloxide_sdk_swiftTests.swift
+//  aloxide-sdk-swiftTests
 //
-//  Created by quoc huynh on 10/30/20.
+//  Created by quoc huynh on 10/19/20.
 //
 
 import XCTest
 @testable import aloxide_sdk_swift
 
-class EOSTest: XCTestCase {
+class CANTest: XCTestCase {
     
-    func configEOS() -> Aloxide {
+    func configCAN() -> Aloxide {
         
         let env: [String: Any] = [
-            "app_blockchain_name":"jungle3",
-            "app_blockchain_type":"eos",
-            "app_blockchain_host":"jungle3.cryptolions.io",
-            "app_blockchain_url":"https://jungle3.cryptolions.io",
-            "app_blockchain_chainId":"e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
+            "app_blockchain_name":"CAN Testnet",
+            "app_blockchain_type":"can",
+            "app_blockchain_host":"testnet.canfoundation.io",
+            "app_blockchain_url":"https://testnet.canfoundation.io",
+            "app_blockchain_chainId":"353c0a7c6744e58778a2a334d1da2303eb12a111cc636bb494e63a84c9e7ffeb",
             "app_blockchain_account":"aloxidejs123",
             "app_blockchain_account_pk":"5JHQ3GuzcQtEQgG3SGvtDU7v2b7ioKznYBizA1V5mBUUsLNcXdQ",
             "app_blockchain_contract":"aloxidejs123"
@@ -28,7 +28,7 @@ class EOSTest: XCTestCase {
         let url = env["app_blockchain_url"] as! String
         let contract = env["app_blockchain_contract"] as! String
         
-        let  eosAccount = BlockchainAccountBuilder()
+        let  canAccount = BlockchainAccountBuilder()
             .setName(name: accountName)
             .setPrivateKey(privateKey: privateKey)
             .build()
@@ -38,14 +38,14 @@ class EOSTest: XCTestCase {
             .setContract(contract: contract)
             .setUrl(url: url)
             .setEntityName(entityName: "Poll")
-            .setBlockchainAccount(blockchainAccount: eosAccount)
+            .setBlockchainAccount(blockchainAccount: canAccount)
             .build()
         
         return eosBuilder
     }
     
     func testGet() throws {
-        let aloxide = configEOS()
+        let aloxide = configCAN()
         let expectation = self.expectation(description: "wait")
         
         let id = "111" /* NEED TO CHANGE */
@@ -56,7 +56,7 @@ class EOSTest: XCTestCase {
                 AloxideLogger.printSuccess(["Result: \(res)"])
                 expectation.fulfill()
             case .failure(let e):
-                AloxideLogger.printError("Get data error \(String(describing: e.message!))")
+                AloxideLogger.printError("Get data error \(String(describing: e.message))")
                 expectation.fulfill()
             }
         }
@@ -64,7 +64,7 @@ class EOSTest: XCTestCase {
     }
     
     func testWrite() throws {
-        let aloxide = configEOS()
+        let aloxide = configCAN()
         let expectation = self.expectation(description: "wait")
         
         let data = ["id":"32302" /* NEED TO CHANGE */
@@ -74,10 +74,10 @@ class EOSTest: XCTestCase {
         aloxide.add(params: data) { res in
             switch res{
             case .success(let res):
-                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.EOS, (aloxide.aloxideData?.url)!))"])
+                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.CAN, (aloxide.aloxideData?.url)!))"])
                 expectation.fulfill()
             case .failure(let e):
-                AloxideLogger.printError("Get data error \(String(describing: e.message!))")
+                AloxideLogger.printError("Get data error \(String(describing: e.message))")
                 expectation.fulfill()
             }
         }
@@ -85,7 +85,7 @@ class EOSTest: XCTestCase {
     }
     
     func testDelete() throws {
-        let aloxide = configEOS()
+        let aloxide = configCAN()
         let expectation = self.expectation(description: "wait")
         
         let id = "2020" /* NEED TO CHANGE */
@@ -93,10 +93,10 @@ class EOSTest: XCTestCase {
         aloxide.delete(id: id){ res in
             switch res{
             case .success(let res):
-                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.EOS, (aloxide.aloxideData?.url)!))"])
+                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.CAN, (aloxide.aloxideData?.url)!))"])
                 expectation.fulfill()
             case .failure(let e):
-                AloxideLogger.printError("Get data error \(String(describing: e.message!))")
+                AloxideLogger.printError("Get data error \(String(describing: e.message))")
                 expectation.fulfill()
             }
         }
@@ -104,7 +104,7 @@ class EOSTest: XCTestCase {
     }
     
     func testUpdate() throws {
-        let aloxide = configEOS()
+        let aloxide = configCAN()
         let expectation = self.expectation(description: "wait")
         
         let data = ["name":"2010name Updated" /* NEED TO CHANGE */
@@ -114,10 +114,10 @@ class EOSTest: XCTestCase {
         aloxide.update(id: id,params: data){ res in
             switch res{
             case .success(let res):
-                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.EOS, (aloxide.aloxideData?.url)!))"])
+                AloxideLogger.printSuccess(["Result: \(res)","To verify: \(AloxideLogger.getTransactionUrl(res, Network.CAN, (aloxide.aloxideData?.url)!))"])
                 expectation.fulfill()
             case .failure(let e):
-                AloxideLogger.printError("Get data error \(String(describing: e.message!))")
+                AloxideLogger.printError("Get data error \(String(describing: e.message))")
                 expectation.fulfill()
             }
         }

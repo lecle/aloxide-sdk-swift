@@ -54,7 +54,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBAction func onClick(_ sender: Any) {
         print("clicked")
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let newView = storyboard.instantiateViewController(withIdentifier: "send_transaction_screen") as! SendTransactionViewController
+        newView.networkSelected = self.networkSelected
+        present(newView, animated: true, completion: nil)
     }
     
     func loadEnv(_ row: Int)  {
@@ -102,27 +105,27 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         self.loadEnv(0)
         
         // ICONNN
-        //        let blockchainAccount = BlockchainAccountBuilder()
-        //            .setAddress(address: "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb")
-        //            .setPrivateKey(privateKey: "592eb276d534e2c41a2d9356c0ab262dc233d87e4dd71ce705ec130a8d27ff0c")
-        //            .build()
-        //
-        //        let poll = AloxideBuilder.newBuilder()
-        //            .setNetwork(network: Network.ICON)
-        //            .setContract(contract: "cx26d2757d45ea7e559940d86761330005b0e9f2d8")
-        //            .setUrl(url: "https://bicon.net.solidwallet.io/api/v3")
-        //            .setNid(nid: 3)
-        //            .setEntityName(entityName: "Poll")
-        //            .setBlockchainAccount(blockchainAccount: blockchainAccount)
-        //            .build()
+//                let blockchainAccount = BlockchainAccountBuilder()
+//                    .setAddress(address: "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb")
+//                    .setPrivateKey(privateKey: "592eb276d534e2c41a2d9356c0ab262dc233d87e4dd71ce705ec130a8d27ff0c")
+//                    .build()
+//
+//                _ = AloxideBuilder.newBuilder()
+//                    .setNetwork(network: Network.ICON)
+//                    .setContract(contract: "cx26d2757d45ea7e559940d86761330005b0e9f2d8")
+//                    .setUrl(url: "https://bicon.net.solidwallet.io/api/v3")
+//                    .setNid(nid: 3)
+//                    .setEntityName(entityName: "Poll")
+//                    .setBlockchainAccount(blockchainAccount: blockchainAccount)
+//                    .build()
         
         
         let blockchainAccount = BlockchainAccountBuilder()
             .setName(name: "aloxidejs123")
             .setPrivateKey(privateKey: "5JHQ3GuzcQtEQgG3SGvtDU7v2b7ioKznYBizA1V5mBUUsLNcXdQ")
             .build()
-        
-        let poll = AloxideBuilder.newBuilder()
+
+        _ = AloxideBuilder.newBuilder()
             .setNetwork(network: Network.EOS)
             .setContract(contract: "aloxidejs123")
             .setUrl(url: "https://testnet.canfoundation.io")

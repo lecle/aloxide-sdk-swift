@@ -23,21 +23,38 @@ class ICONNetwork: BlockchainNetwork{
         self.contract = contract
         self.entityName = entityName.lowercased()
         self.nId = networkId
+        self.getScore()
     }
+    
     func getScore() {
         let request: Request<[Response.ScoreAPI]> = iconService.getScoreAPI(scoreAddress: self.contract)
-
+        
         let response = request.execute()
-
+        
         switch response {
         case .success(let res):
-            print("getScore \(res)")
+//            var output: [Field] = []
+//            
+//            for i in 0..<res.count {
+//                let scoreApi = res[i]
+//                let actionName = scoreApi.name
+//                
+//                let inputs = scoreApi.inputs as! [[String: String]]
+//                
+//                var fieldDetails: [FieldDetail] = []
+//                for j in 0..<inputs.count{
+//                    let fd = FieldDetail(name: inputs[j]["name"]!, type: inputs[j]["type"]!)
+//                    fieldDetails.append(fd)
+//                }
+//                output.append(Field(name: actionName, fields: fieldDetails))
+//                
+//            }
+//            print("ICON get score api: \(output)")
             break
         case .failure(let error):
             print("getScore failed \(String(describing: error.failureReason))")
             break
         }
-        
     }
     
     func get(id: Any, completion: @escaping (AloxideResult<String, AloxideExceptions>) -> Void) {

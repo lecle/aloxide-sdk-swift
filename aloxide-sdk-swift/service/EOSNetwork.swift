@@ -39,6 +39,7 @@ class EOSNetwork: BlockchainNetwork{
             signatureProvider: signatureProvider,
             serializationProvider: serializationProvider
         )
+        self.getActions()
     }
     
     
@@ -50,7 +51,13 @@ class EOSNetwork: BlockchainNetwork{
                 print("getAbi error \(String(describing: error.failureReason))")
                 break
             case .success(let res):
-                print("getAbi success \(res)")
+//                let output: [Field]?
+//                
+//                let structs = res.abi["structs"] as! [Any]
+//                for i in 0..<structs.count {
+//                    let mStruct = structs[i] as! [String: Any]
+//                    
+//                }
                 break
             }
         }

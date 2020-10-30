@@ -52,11 +52,13 @@ class AloxideData{
 }
 
 class AloxideBuilder{
+    
     private var aloxideData: AloxideData
     
     private init(){
         aloxideData = AloxideData()
     }
+
     static func newBuilder() -> AloxideBuilder{
         return AloxideBuilder()
     }
